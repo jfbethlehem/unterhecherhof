@@ -410,27 +410,24 @@ export default function App() {
         {/* Reviews Section */}
         <section className="py-24 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-3 gap-12 items-center">
-              <div className="text-center lg:text-left">
-                <div className="text-6xl font-black mb-2 font-sans">{contentData.reviews.score}</div>
-                <div className="flex justify-center lg:justify-start gap-1 mb-4">
-                  <Star className="fill-white text-white h-6 w-6" />
-                  <Star className="fill-white text-white h-6 w-6" />
-                  <Star className="fill-white text-white h-6 w-6" />
-                  <Star className="fill-white text-white h-6 w-6" />
-                  <Star className="fill-white text-white h-6 w-6" />
-                </div>
-                <h2 className="text-3xl font-bold mb-4">{contentData.reviews.title}</h2>
-                <p className="text-white/80 font-sans">{contentData.reviews.subtitle}</p>
-              </div>
-              <div className="lg:col-span-2 grid md:grid-cols-2 gap-6">
-                {contentData.reviews.items.map((review, index) => (
-                  <div key={index} className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-                    <p className="italic mb-6 text-lg">"{review.quote}"</p>
-                    <div className="font-bold font-sans">— {review.author}</div>
-                  </div>
-                ))}
-              </div>
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Guest Reviews</h2>
+              <p className="text-white/80 font-sans">See what our guests have to say on Google</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-4 overflow-hidden shadow-xl min-h-[400px] flex items-center justify-center relative">
+              <iframe 
+                src="https://www.google.com/maps?q=Unterhecherhof,+Assling,+Austria&output=embed" 
+                width="100%" 
+                height="400" 
+                frameBorder="0" 
+                scrolling="yes"
+                title="Google Maps - Unterhecherhof"
+                className="absolute inset-0 w-full h-full border-0"
+                sandbox="allow-scripts allow-same-origin allow-popups"
+              >
+                <p>Your browser does not support iframes.</p>
+              </iframe>
             </div>
           </div>
         </section>
