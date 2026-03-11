@@ -1,0 +1,100 @@
+{
+  "site": {
+    "name": "Unterhecherhof",
+    "description": "Experience the heart of Tyrol. Our family-run B&B offers an authentic farm stay experience with modern amenities and stunning views."
+  },
+  "contact": {
+    "address": {
+      "street": "48 Bannberg",
+      "city": "9911 Bannberg",
+      "country": "Austria",
+      "footerAddress": "Bannberg 12, 9911 Assling,\nEast Tyrol, Austria",
+      "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
+    },
+    "phone": "+43 632 29 61 77",
+    "whatsappLink": "https://wa.me/43632296177",
+    "email": "info@unterhecherhof.at",
+    "instagram": "https://www.instagram.com/unterhecherhof/"
+  },
+  "booking": {
+    "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
+    "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
+    "goodToKnow": [
+      "Check-in: 15:00 - 20:00",
+      "Check-out: 08:00 - 10:00",
+      "Free private parking",
+      "Farm breakfast included",
+      "Children are welcome",
+      "Pets not allowed"
+    ]
+  },
+  "directions": {
+    "fromLienz": "Take the B100 west towards Sillian. After about 3km, turn right towards Bannberg. Follow the winding mountain road for 4km until you reach the village.",
+    "winterDriving": "Winter tires are mandatory from November to April. Snow chains are recommended during heavy snowfall."
+  },
+  "hero": {
+    "title": "Authentic Alpine Farm Stay in Bannberg, Tyrol",
+    "subtitle": "Experience the charm of a historic farmhouse nestled in the heart of the Dolomites.",
+    "buttonText": "Book Now",
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+  },
+  "about": {
+    "tagline": "Our Heritage",
+    "title": "Family-Run Hospitality",
+    "description": "Our historic farmhouse has been lovingly renovated to offer modern comfort while preserving its authentic Tyrolean soul. Experience true Alpine life with the Unterhecher family, where tradition meets comfort in the peaceful village of Bannberg.",
+    "highlights": [
+      { "icon": "History", "text": "Historic Roots" },
+      { "icon": "Users", "text": "Family Hosted" }
+    ],
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "features": {
+    "title": "Why Stay With Us?",
+    "subtitle": "Authentic experiences in the heart of the mountains",
+    "items": [
+      {
+        "icon": "Mountain",
+        "title": "Mountain Views",
+        "description": "Panoramic vistas of the Lienz Dolomites from every window."
+      },
+      {
+        "icon": "BellOff",
+        "title": "Quiet Village",
+        "description": "Find absolute peace in the tranquil atmosphere of Bannberg."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Farm Breakfast",
+        "description": "Start your day with fresh local milk, eggs, and homemade treats."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Hospitality",
+        "description": "Genuine warmth and personal care from your hosts."
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Our Accommodations",
+    "subtitle": "Cozy spaces designed for your comfort",
+    "buttonText": "Check Availability"
+  },
+  "reviews": {
+    "score": "9.5/10",
+    "title": "Exceptional Guest Rating",
+    "subtitle": "Based on over 200 verified reviews from our wonderful guests.",
+    "items": [
+      {
+        "quote": "The most beautiful farmhouse I've ever stayed in. The breakfast is incredible and the hosts make you feel like part of the family.",
+        "author": "Sarah & Mark, UK"
+      },
+      {
+        "quote": "The view from the balcony is breathtaking. Everything was perfectly clean and the renovation was done with so much taste.",
+        "author": "Hans Müller, Germany"
+      }
+    ]
+  }
+}
