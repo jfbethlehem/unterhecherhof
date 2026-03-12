@@ -1,0 +1,31 @@
+[
+  {
+    "id": "deluxe-double",
+    "name": "Camera Matrimoniale Deluxe",
+    "description": "Dotata di set di cortesia, questa camera matrimoniale include un bagno privato con cabina doccia, bidet e asciugacapelli. Questa camera matrimoniale dispone di set per la preparazione di tè e caffè, TV a schermo piatto con servizi di streaming, vista sul giardino, nonché vino/champagne per gli ospiti. L'unità offre 1 letto.",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701577047.jpg?k=ad3508301b8921baac65945a83bc56a4cb8f6e92df477ff0ca27694a9cce039f&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701576165.jpg?k=33426cd663155ece50636bc2d2ea6a275e2ed3cb50dbe10215ab2453f0418692&o=&a=2237691"
+    ],
+    "amenities": [
+      { "icon": "Wifi", "text": "WiFi ad alta velocità gratuito" },
+      { "icon": "Bathroom", "text": "Bagno privato" }
+    ],
+    "buttonText": "Prenota Camera"
+  },
+  {
+    "id": "3-bedroom-apartment",
+    "name": "Appartamento con 3 Camere da Letto",
+    "description": "Questo spazioso appartamento comprende 1 soggiorno, 3 camere da letto separate e 1 bagno con cabina doccia e set di cortesia. Gli ospiti troveranno un piano cottura, un frigorifero, una lavastoviglie e utensili da cucina nella cucina ben attrezzata. L'appartamento dispone anche di un barbecue. Questo appartamento dispone di lavatrice, TV a schermo piatto con servizi di streaming, vista sul giardino, nonché vino/champagne per gli ospiti. L'unità ha 4 letti.",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725570376.jpg?k=76b7029dff46a88417450ab9f4612d7d43141f5954a7706b4c7d89ea9f4d6d95&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/710874311.jpg?k=caa279f6bf254c35ccf2b48905ead8e1dee2a111453fa1a5a52504606aae5263&o=&a=2237691"
+    ],
+    "amenities": [
+      { "icon": "Users", "text": "Fino a 6 posti letto" },
+      { "icon": "Sun", "text": "Balcone privato" },
+      { "icon": "Utensils", "text": "Cucina completa" }
+    ],
+    "buttonText": "Prenota Appartamento"
+  }
+]

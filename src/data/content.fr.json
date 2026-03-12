@@ -1,0 +1,137 @@
+{
+  "site": {
+    "name": "Unterhecherhof",
+    "description": "Découvrez le cœur du Tyrol. Notre chambre d'hôtes familiale offre une expérience authentique de séjour à la ferme avec des équipements modernes et des vues imprenables."
+  },
+  "contact": {
+    "address": {
+      "street": "Bannberg 48",
+      "city": "9911 Bannberg",
+      "country": "Autriche",
+      "footerAddress": "Bannberg 48\n9911 Bannberg\nTyrol oriental, Autriche",
+      "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
+    },
+    "phone": "+43 632 29 61 77",
+    "whatsappLink": "https://wa.me/43632296177",
+    "email": "info@unterhecherhof.at",
+    "instagram": "https://www.instagram.com/unterhecherhof/"
+  },
+  "booking": {
+    "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
+    "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
+    "goodToKnow": [
+      "Arrivée : 15:00 - 20:00",
+      "Départ : 08:00 - 10:00",
+      "Parking privé gratuit",
+      "Petit-déjeuner de la ferme inclus",
+      "Les enfants sont les bienvenus",
+      "Animaux non admis"
+    ]
+  },
+  "directions": {
+    "fromLienz": "Prenez la B100 vers l'ouest en direction de Sillian. Après environ 3 km, tournez à droite vers Bannberg. Suivez la route de montagne sinueuse sur 4 km jusqu'au village.",
+    "winterDriving": "Les pneus hiver sont obligatoires de novembre à avril. Les chaînes à neige sont recommandées en cas de fortes chutes de neige."
+  },
+  "hero": {
+    "title": "Séjour Authentique à la Ferme Alpine à Bannberg, Tyrol",
+    "subtitle": "Découvrez le charme d'une ferme historique nichée au cœur des Dolomites.",
+    "buttonText": "Réserver",
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+  },
+  "about": {
+    "tagline": "Notre Héritage",
+    "title": "Hospitalité Familiale",
+    "description": "Perché à 1 200 mètres d'altitude dans les Dolomites de Lienz, l'Unterhecherhof offre une place de choix au théâtre de montagne le plus majestueux de la nature. Ici, le chaos du monde moderne s'estompe dans un silence profond, rompu seulement par le doux carillon des cloches de vaches lointaines et la brise de montagne. Découvrez l'âme d'une ferme vieille de 500 ans, soigneusement rénovée pour allier l'âme et le charme historiques du Tyrol à l'hospitalité intime et chaleureuse d'une retraite familiale. Détendez-vous dans des espaces modernes et lumineux où le design épuré rencontre la beauté sauvage des Alpes juste à l'extérieur de votre balcon privé.\nCe n'est pas juste un séjour ; c'est une occasion rare de respirer profondément, de se ressourcer et de vraiment rentrer chez soi sur les hauteurs.",
+    "highlights": [
+      { "icon": "History", "text": "Découvrez l'histoire et l'âme du Tyrol" },
+      { "icon": "Mountain", "text": "Rentrez chez vous dans les montagnes" },
+      { "icon": "Users", "text": "Hébergement familial" }
+    ],
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "features": {
+    "title": "Pourquoi Séjourner Chez Nous ?",
+    "subtitle": "Des expériences authentiques au cœur des montagnes",
+    "items": [
+      {
+        "icon": "Mountain",
+        "title": "Vues sur la Montagne",
+        "description": "Des vues incroyables, des pistes de ski et des pistes cyclables pour profiter de la nature la plus majestueuse tout au long de l'année."
+      },
+      {
+        "icon": "BellOff",
+        "title": "Village Paisible",
+        "description": "Trouvez une paix absolue dans l'atmosphère tranquille et pure de Bannberg."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Petit-déjeuner de la Ferme",
+        "description": "Commencez votre journée avec du lait frais vraiment local, des œufs et des friandises faites maison."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Hospitalité",
+        "description": "Chaleur authentique et soins personnels de vos hôtes dans un petit B&B."
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Nos Hébergements",
+    "subtitle": "Des espaces confortables conçus pour votre confort",
+    "buttonText": "Vérifier la Disponibilité"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Un aperçu de nos magnifiques environs",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "ui": {
+    "nav": {
+      "rooms": "Chambres",
+      "about": "À propos",
+      "experience": "Expérience",
+      "contact": "Contact",
+      "bookNow": "Réserver"
+    },
+    "bookingModal": {
+      "title": "Réservez Votre Séjour",
+      "subtitle": "Sélectionnez votre plateforme de réservation préférée ou contactez-nous directement.",
+      "instantConfirmation": "Confirmation instantanée",
+      "bestPrice": "Garantie du meilleur prix",
+      "goodToKnow": "Bon à savoir"
+    },
+    "contactModal": {
+      "title": "Contactez-nous",
+      "subtitle": "Nous serions ravis d'avoir de vos nouvelles. Contactez-nous pour toute question.",
+      "address": "Adresse",
+      "viewMap": "Voir sur Google Maps",
+      "phone": "WhatsApp / Téléphone",
+      "messageWhatsapp": "Message sur WhatsApp",
+      "email": "E-mail",
+      "sendEmail": "Envoyer un e-mail",
+      "directions": "Itinéraire",
+      "fromLienz": "De Lienz :",
+      "winterDriving": "Conduite en hiver :"
+    },
+    "footer": {
+      "contact": "Contactez-nous",
+      "quickLinks": "Liens Rapides",
+      "bookStay": "Réservez Votre Séjour",
+      "whatsappUs": "Contactez-nous sur WhatsApp",
+      "directionsInfo": "Itinéraire & Infos",
+      "secureBooking": "Système de Réservation Sécurisé",
+      "allRightsReserved": "Tous droits réservés."
+    },
+    "map": {
+      "title": "Carte",
+      "subtitle": "Où nous trouver"
+    }
+  }
+}

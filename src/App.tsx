@@ -3,11 +3,62 @@ import {
   Mountain, Menu, History, Users, BellOff, Coffee, 
   HeartHandshake, ArrowRight, Wifi, Sun, Utensils, 
   Star, MapPin, Mail, MessageCircle, CreditCard,
-  Instagram, X, Check, Calendar, ChevronLeft, ChevronRight
+  Instagram, X, Check, Calendar, ChevronLeft, ChevronRight,
+  Globe, ChevronDown
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import roomsData from './data/rooms.json';
-import contentData from './data/content.json';
+import roomsDataEn from './data/rooms.en.json';
+import contentDataEn from './data/content.en.json';
+import roomsDataDe from './data/rooms.de.json';
+import contentDataDe from './data/content.de.json';
+import roomsDataFr from './data/rooms.fr.json';
+import contentDataFr from './data/content.fr.json';
+import roomsDataIt from './data/rooms.it.json';
+import contentDataIt from './data/content.it.json';
+import roomsDataTl from './data/rooms.tl.json';
+import contentDataTl from './data/content.tl.json';
+
+const contentDataMap = {
+  en: contentDataEn,
+  de: contentDataDe,
+  fr: contentDataFr,
+  it: contentDataIt,
+  tl: contentDataTl
+};
+
+const roomsDataMap = {
+  en: roomsDataEn,
+  de: roomsDataDe,
+  fr: roomsDataFr,
+  it: roomsDataIt,
+  tl: roomsDataTl
+};
+
+type Language = 'en' | 'de' | 'fr' | 'it' | 'tl';
+
+const languageNames: Record<Language, string> = {
+  en: 'English',
+  de: 'Deutsch',
+  fr: 'Français',
+  it: 'Italiano',
+  tl: 'Filipino'
+};
+
+const LanguageContext = React.createContext<{
+  language: Language;
+  setLanguage: (lang: Language) => void;
+  contentData: typeof contentDataEn;
+  roomsData: typeof roomsDataEn;
+}>({
+  language: 'en',
+  setLanguage: () => {},
+  contentData: contentDataEn,
+  roomsData: roomsDataEn,
+});
+
+export function useLanguage() {
+  return React.useContext(LanguageContext);
+}
 
 const iconMap: Record<string, React.ElementType> = {
   Wifi,
@@ -213,6 +264,7 @@ function RoomCard({ room, onBook, onImageClick }: { key?: string | number, room:
 }
 
 function BookingModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
+  const { contentData } = useLanguage();
   return (
     <AnimatePresence>
       {isOpen && (
@@ -233,8 +285,8 @@ function BookingModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
             </button>
             
             <div className="p-8">
-              <h2 className="mb-2 text-3xl font-bold text-slate-900">Book Your Stay</h2>
-              <p className="mb-8 text-slate-600">Select your preferred booking platform or contact us directly.</p>
+              <h2 className="mb-2 text-3xl font-bold text-slate-900">{contentData.ui.bookingModal.title}</h2>
+              <p className="mb-8 text-slate-600">{contentData.ui.bookingModal.subtitle}</p>
               
               <div className="grid gap-6 md:grid-cols-2">
                 <a href={contentData.booking.bookingDotCom} target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center rounded-xl border-2 border-slate-100 p-6 text-center transition-all hover:border-primary hover:bg-primary/5">
@@ -242,7 +294,7 @@ function BookingModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                     <Calendar className="h-8 w-8" />
                   </div>
                   <h3 className="mb-1 font-bold text-slate-900">Booking.com</h3>
-                  <p className="text-sm text-slate-500">Instant confirmation</p>
+                  <p className="text-sm text-slate-500">{contentData.ui.bookingModal.instantConfirmation}</p>
                 </a>
                 
                 <a href={contentData.booking.agoda} target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center rounded-xl border-2 border-slate-100 p-6 text-center transition-all hover:border-primary hover:bg-primary/5">
@@ -250,12 +302,12 @@ function BookingModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                     <Calendar className="h-8 w-8" />
                   </div>
                   <h3 className="mb-1 font-bold text-slate-900">Agoda</h3>
-                  <p className="text-sm text-slate-500">Best price guarantee</p>
+                  <p className="text-sm text-slate-500">{contentData.ui.bookingModal.bestPrice}</p>
                 </a>
               </div>
               
               <div className="mt-8 rounded-xl bg-slate-50 p-6">
-                <h4 className="mb-4 font-bold text-slate-900 font-sans">Good to know</h4>
+                <h4 className="mb-4 font-bold text-slate-900 font-sans">{contentData.ui.bookingModal.goodToKnow}</h4>
                 <ul className="grid gap-3 text-sm text-slate-600 sm:grid-cols-2">
                   {contentData.booking.goodToKnow.map((item, index) => (
                     <li key={index} className="flex items-center gap-2"><Check className="h-4 w-4 text-primary" /> {item}</li>
@@ -271,6 +323,7 @@ function BookingModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
 }
 
 function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
+  const { contentData } = useLanguage();
   return (
     <AnimatePresence>
       {isOpen && (
@@ -291,8 +344,8 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
             </button>
             
             <div className="p-8">
-              <h2 className="mb-2 text-3xl font-bold text-slate-900">Contact Us</h2>
-              <p className="mb-8 text-slate-600">We'd love to hear from you. Reach out with any questions.</p>
+              <h2 className="mb-2 text-3xl font-bold text-slate-900">{contentData.ui.contactModal.title}</h2>
+              <p className="mb-8 text-slate-600">{contentData.ui.contactModal.subtitle}</p>
               
               <div className="grid gap-8 md:grid-cols-2">
                 <div className="space-y-6">
@@ -301,9 +354,9 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                       <MapPin className="h-6 w-6" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900 font-sans">Address</h4>
+                      <h4 className="font-bold text-slate-900 font-sans">{contentData.ui.contactModal.address}</h4>
                       <p className="text-slate-600">{contentData.contact.address.street}<br/>{contentData.contact.address.city}<br/>{contentData.contact.address.country}</p>
-                      <a href={contentData.contact.address.mapLink} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm font-medium text-primary hover:underline">View on Google Maps</a>
+                      <a href={contentData.contact.address.mapLink} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm font-medium text-primary hover:underline">{contentData.ui.contactModal.viewMap}</a>
                     </div>
                   </div>
                   
@@ -312,9 +365,9 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                       <MessageCircle className="h-6 w-6" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900 font-sans">WhatsApp / Phone</h4>
+                      <h4 className="font-bold text-slate-900 font-sans">{contentData.ui.contactModal.phone}</h4>
                       <p className="text-slate-600">{contentData.contact.phone}</p>
-                      <a href={contentData.contact.whatsappLink} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm font-medium text-primary hover:underline">Message on WhatsApp</a>
+                      <a href={contentData.contact.whatsappLink} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm font-medium text-primary hover:underline">{contentData.ui.contactModal.messageWhatsapp}</a>
                     </div>
                   </div>
                   
@@ -323,20 +376,20 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                       <Mail className="h-6 w-6" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900 font-sans">Email</h4>
+                      <h4 className="font-bold text-slate-900 font-sans">{contentData.ui.contactModal.email}</h4>
                       <p className="text-slate-600">{contentData.contact.email}</p>
-                      <a href={`mailto:${contentData.contact.email}`} className="mt-2 inline-block text-sm font-medium text-primary hover:underline">Send an email</a>
+                      <a href={`mailto:${contentData.contact.email}`} className="mt-2 inline-block text-sm font-medium text-primary hover:underline">{contentData.ui.contactModal.sendEmail}</a>
                     </div>
                   </div>
                 </div>
                 
                 <div className="rounded-xl bg-slate-50 p-6">
-                  <h4 className="mb-4 font-bold text-slate-900 font-sans">Directions</h4>
+                  <h4 className="mb-4 font-bold text-slate-900 font-sans">{contentData.ui.contactModal.directions}</h4>
                   <p className="mb-4 text-sm text-slate-600">
-                    <strong>From Lienz:</strong> {contentData.directions.fromLienz}
+                    <strong>{contentData.ui.contactModal.fromLienz}</strong> {contentData.directions.fromLienz}
                   </p>
                   <p className="text-sm text-slate-600">
-                    <strong>Winter driving:</strong> {contentData.directions.winterDriving}
+                    <strong>{contentData.ui.contactModal.winterDriving}</strong> {contentData.directions.winterDriving}
                   </p>
                 </div>
               </div>
@@ -348,7 +401,52 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
   );
 }
 
-export default function App() {
+function LanguageSelector({ language, setLanguage }: { language: Language, setLanguage: (lang: Language) => void }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="relative">
+      <button 
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+      >
+        <Globe className="h-4 w-4" />
+        <span className="uppercase">{language}</span>
+        <ChevronDown className={`h-3 w-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+      </button>
+      
+      <AnimatePresence>
+        {isOpen && (
+          <>
+            <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
+            <motion.div 
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              className="absolute right-0 mt-2 w-32 bg-white rounded-xl shadow-lg border border-slate-100 py-2 z-20"
+            >
+              {(Object.keys(languageNames) as Language[]).map((lang) => (
+                <button
+                  key={lang}
+                  onClick={() => {
+                    setLanguage(lang);
+                    setIsOpen(false);
+                  }}
+                  className={`w-full text-left px-4 py-2 text-sm transition-colors ${language === lang ? 'text-primary font-bold bg-primary/5' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
+                >
+                  {languageNames[lang]}
+                </button>
+              ))}
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+function MainApp() {
+  const { contentData, roomsData, language, setLanguage } = useLanguage();
   const [isBookingOpen, setIsBookingOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -375,19 +473,27 @@ export default function App() {
             </div>
             
             <nav className="hidden md:flex items-center gap-8">
-              <button onClick={() => scrollToSection('rooms')} className="text-sm font-medium hover:text-primary transition-colors">Rooms</button>
-              <button onClick={() => scrollToSection('about')} className="text-sm font-medium hover:text-primary transition-colors">About</button>
-              <button onClick={() => scrollToSection('features')} className="text-sm font-medium hover:text-primary transition-colors">Experience</button>
-              <button onClick={() => setIsContactOpen(true)} className="text-sm font-medium hover:text-primary transition-colors">Contact</button>
+              <button onClick={() => scrollToSection('rooms')} className="text-sm font-medium hover:text-primary transition-colors">{contentData.ui.nav.rooms}</button>
+              <button onClick={() => scrollToSection('about')} className="text-sm font-medium hover:text-primary transition-colors">{contentData.ui.nav.about}</button>
+              <button onClick={() => scrollToSection('features')} className="text-sm font-medium hover:text-primary transition-colors">{contentData.ui.nav.experience}</button>
+              <button onClick={() => setIsContactOpen(true)} className="text-sm font-medium hover:text-primary transition-colors">{contentData.ui.nav.contact}</button>
+              
+              <div className="flex items-center gap-2 border-l border-slate-200 pl-6 ml-2">
+                <LanguageSelector language={language} setLanguage={setLanguage} />
+              </div>
+
               <button 
                 onClick={() => setIsBookingOpen(true)}
                 className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-lg shadow-primary/20"
               >
-                Book Now
+                {contentData.ui.nav.bookNow}
               </button>
             </nav>
             
-            <div className="md:hidden">
+            <div className="md:hidden flex items-center gap-4">
+              <div className="flex items-center mr-2">
+                <LanguageSelector language={language} setLanguage={setLanguage} />
+              </div>
               <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                 {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
@@ -405,15 +511,15 @@ export default function App() {
               className="md:hidden overflow-hidden bg-white border-b border-slate-100"
             >
               <div className="flex flex-col px-4 py-6 space-y-4">
-                <button onClick={() => scrollToSection('rooms')} className="text-left text-lg font-medium hover:text-primary">Rooms</button>
-                <button onClick={() => scrollToSection('about')} className="text-left text-lg font-medium hover:text-primary">About</button>
-                <button onClick={() => scrollToSection('features')} className="text-left text-lg font-medium hover:text-primary">Experience</button>
-                <button onClick={() => setIsContactOpen(true)} className="text-left text-lg font-medium hover:text-primary">Contact</button>
+                <button onClick={() => scrollToSection('rooms')} className="text-left text-lg font-medium hover:text-primary">{contentData.ui.nav.rooms}</button>
+                <button onClick={() => scrollToSection('about')} className="text-left text-lg font-medium hover:text-primary">{contentData.ui.nav.about}</button>
+                <button onClick={() => scrollToSection('features')} className="text-left text-lg font-medium hover:text-primary">{contentData.ui.nav.experience}</button>
+                <button onClick={() => setIsContactOpen(true)} className="text-left text-lg font-medium hover:text-primary">{contentData.ui.nav.contact}</button>
                 <button 
                   onClick={() => setIsBookingOpen(true)}
                   className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-bold text-center transition-all shadow-lg shadow-primary/20 mt-4"
                 >
-                  Book Now
+                  {contentData.ui.nav.bookNow}
                 </button>
               </div>
             </motion.div>
@@ -545,8 +651,8 @@ export default function App() {
         <section className="py-24 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Map</h2>
-              <p className="text-white/80 font-sans">Where to find us</p>
+              <h2 className="text-3xl font-bold mb-4">{contentData.ui.map.title}</h2>
+              <p className="text-white/80 font-sans">{contentData.ui.map.subtitle}</p>
             </div>
             
             <div className="bg-white rounded-2xl p-4 overflow-hidden shadow-xl min-h-[400px] flex items-center justify-center relative">
@@ -597,7 +703,7 @@ export default function App() {
             </div>
             
             <div>
-              <h3 className="text-white font-bold mb-6 font-sans">Contact Us</h3>
+              <h3 className="text-white font-bold mb-6 font-sans">{contentData.ui.footer.contact}</h3>
               <ul className="space-y-4 font-sans">
                 <li className="flex items-start gap-3">
                   <MapPin className="text-primary h-5 w-5 shrink-0 mt-0.5" />
@@ -611,25 +717,25 @@ export default function App() {
             </div>
             
             <div>
-              <h3 className="text-white font-bold mb-6 font-sans">Quick Links</h3>
+              <h3 className="text-white font-bold mb-6 font-sans">{contentData.ui.footer.quickLinks}</h3>
               <ul className="space-y-4 font-sans">
-                <li><button onClick={() => setIsBookingOpen(true)} className="hover:text-primary transition-colors">Book Your Stay</button></li>
+                <li><button onClick={() => setIsBookingOpen(true)} className="hover:text-primary transition-colors">{contentData.ui.footer.bookStay}</button></li>
                 <li>
                   <a href={contentData.contact.whatsappLink} target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2">
                     <MessageCircle className="text-primary h-5 w-5" /> 
-                    WhatsApp Us
+                    {contentData.ui.footer.whatsappUs}
                   </a>
                 </li>
-                <li><button onClick={() => setIsContactOpen(true)} className="hover:text-primary transition-colors">Directions & Info</button></li>
+                <li><button onClick={() => setIsContactOpen(true)} className="hover:text-primary transition-colors">{contentData.ui.footer.directionsInfo}</button></li>
               </ul>
             </div>
           </div>
           
           <div className="pt-8 border-t border-slate-800 text-sm flex flex-col md:flex-row justify-between items-center gap-4 font-sans">
-            <p>© {new Date().getFullYear()} Unterhecherhof. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} {contentData.site.name}. {contentData.ui.footer.allRightsReserved}</p>
             <div className="flex items-center gap-4">
               <CreditCard className="text-primary h-5 w-5" />
-              <span>Secure Booking System</span>
+              <span>{contentData.ui.footer.secureBooking}</span>
             </div>
           </div>
         </div>
@@ -638,5 +744,20 @@ export default function App() {
       <BookingModal isOpen={isBookingOpen} onClose={() => setIsBookingOpen(false)} />
       <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </div>
+  );
+}
+
+export default function App() {
+  const [language, setLanguage] = useState<Language>('en');
+
+  return (
+    <LanguageContext.Provider value={{
+      language,
+      setLanguage,
+      contentData: contentDataMap[language],
+      roomsData: roomsDataMap[language]
+    }}>
+      <MainApp />
+    </LanguageContext.Provider>
   );
 }

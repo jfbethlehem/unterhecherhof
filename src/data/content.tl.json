@@ -1,0 +1,137 @@
+{
+  "site": {
+    "name": "Unterhecherhof",
+    "description": "Damhin ang puso ng Tyrol. Ang aming pampamilyang B&B ay nag-aalok ng tunay na karanasan sa pagtuloy sa bukid na may mga modernong pasilidad at nakamamanghang tanawin."
+  },
+  "contact": {
+    "address": {
+      "street": "Bannberg 48",
+      "city": "9911 Bannberg",
+      "country": "Austria",
+      "footerAddress": "Bannberg 48\n9911 Bannberg\nEast Tyrol, Austria",
+      "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
+    },
+    "phone": "+43 632 29 61 77",
+    "whatsappLink": "https://wa.me/43632296177",
+    "email": "info@unterhecherhof.at",
+    "instagram": "https://www.instagram.com/unterhecherhof/"
+  },
+  "booking": {
+    "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
+    "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
+    "goodToKnow": [
+      "Check-in: 15:00 - 20:00",
+      "Check-out: 08:00 - 10:00",
+      "Libreng pribadong paradahan",
+      "Kasama ang almusal mula sa bukid",
+      "Tinatanggap ang mga bata",
+      "Hindi pinapayagan ang mga alagang hayop"
+    ]
+  },
+  "directions": {
+    "fromLienz": "Dumaan sa B100 pakanluran patungong Sillian. Pagkalipas ng humigit-kumulang 3km, kumanan patungong Bannberg. Sundan ang paliko-likong kalsada sa bundok ng 4km hanggang sa marating mo ang nayon.",
+    "winterDriving": "Sapilitan ang mga gulong pang-taglamig mula Nobyembre hanggang Abril. Inirerekomenda ang mga kadena sa niyebe sa panahon ng malakas na pag-ulan ng niyebe."
+  },
+  "hero": {
+    "title": "Tunay na Alpine Farm Stay sa Bannberg, Tyrol",
+    "subtitle": "Damhin ang alindog ng isang makasaysayang farmhouse na matatagpuan sa gitna ng Dolomites.",
+    "buttonText": "Mag-book Ngayon",
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+  },
+  "about": {
+    "tagline": "Ang Aming Pamana",
+    "title": "Pampamilyang Mabuting Pagtanggap",
+    "description": "Nakatayo ng 1,200 metro ang taas sa Lienz Dolomites, ang Unterhecherhof ay nag-aalok ng upuan sa unahan para sa pinakamaringal na teatro sa bundok ng kalikasan. Dito, ang kaguluhan ng modernong mundo ay naglalaho sa isang malalim na katahimikan, na binabasag lamang ng malambot na tunog ng malalayong kampana ng baka at simoy ng bundok. Damhin ang kaluluwa ng isang 500-taong-gulang na bukid, na maingat na inayos upang paghaluin ang makasaysayang kaluluwa at alindog ng Tyrolean sa matalik at mainit na pagtanggap ng isang pampamilyang pahingahan. Magpahinga sa mga moderno at maliwanag na espasyo kung saan ang makinis na disenyo ay nakakatugon sa masungit na kagandahan ng Alps sa labas mismo ng iyong pribadong balkonahe.\nIto ay hindi lamang isang pagtuloy; ito ay isang pambihirang pagkakataon upang huminga nang malalim, mag-recharge, at tunay na umuwi sa kaitaasan.",
+    "highlights": [
+      { "icon": "History", "text": "Damhin ang kasaysayan at kaluluwa ng Tyrol" },
+      { "icon": "Mountain", "text": "Umuwi sa mga bundok" },
+      { "icon": "Users", "text": "Pampamilyang Pagho-host" }
+    ],
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "features": {
+    "title": "Bakit Sa Amin Dapat Tumuloy?",
+    "subtitle": "Mga tunay na karanasan sa gitna ng mga bundok",
+    "items": [
+      {
+        "icon": "Mountain",
+        "title": "Mga Tanawin ng Bundok",
+        "description": "Kahanga-hangang mga tanawin, mga ski piste at mga daanan ng pagbibisikleta upang tamasahin ang kalikasan sa pinakamaringal nito sa buong taon."
+      },
+      {
+        "icon": "BellOff",
+        "title": "Tahimik na Nayon",
+        "description": "Maghanap ng ganap na kapayapaan sa tahimik at malinis na kapaligiran ng Bannberg."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Almusal sa Bukid",
+        "description": "Simulan ang iyong araw sa sariwang gatas na tunay na lokal, mga itlog, at mga lutong bahay na pagkain."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Mabuting Pagtanggap",
+        "description": "Tunay na init at personal na pangangalaga mula sa iyong mga host sa isang maliit na B&B."
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Ang Aming Mga Akomodasyon",
+    "subtitle": "Mga maaliwalas na espasyo na idinisenyo para sa iyong kaginhawaan",
+    "buttonText": "Suriin ang Availability"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Isang sulyap sa aming magandang kapaligiran",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "ui": {
+    "nav": {
+      "rooms": "Mga Kuwarto",
+      "about": "Tungkol sa Amin",
+      "experience": "Karanasan",
+      "contact": "Makipag-ugnayan",
+      "bookNow": "Mag-book Ngayon"
+    },
+    "bookingModal": {
+      "title": "I-book ang Iyong Pagtuloy",
+      "subtitle": "Piliin ang iyong gustong platform ng pag-book o makipag-ugnayan sa amin nang direkta.",
+      "instantConfirmation": "Agad na kumpirmasyon",
+      "bestPrice": "Garantiyang pinakamagandang presyo",
+      "goodToKnow": "Mabuting malaman"
+    },
+    "contactModal": {
+      "title": "Makipag-ugnayan sa Amin",
+      "subtitle": "Gusto naming makarinig mula sa iyo. Makipag-ugnayan kung may anumang mga katanungan.",
+      "address": "Address",
+      "viewMap": "Tingnan sa Google Maps",
+      "phone": "WhatsApp / Telepono",
+      "messageWhatsapp": "Mensahe sa WhatsApp",
+      "email": "Email",
+      "sendEmail": "Magpadala ng email",
+      "directions": "Mga Direksyon",
+      "fromLienz": "Mula sa Lienz:",
+      "winterDriving": "Pagmamaneho sa taglamig:"
+    },
+    "footer": {
+      "contact": "Makipag-ugnayan sa Amin",
+      "quickLinks": "Mabilis na Mga Link",
+      "bookStay": "I-book ang Iyong Pagtuloy",
+      "whatsappUs": "Mag-WhatsApp sa Amin",
+      "directionsInfo": "Mga Direksyon at Impormasyon",
+      "secureBooking": "Ligtas na Sistema ng Pag-book",
+      "allRightsReserved": "Lahat ng karapatan ay nakalaan."
+    },
+    "map": {
+      "title": "Mapa",
+      "subtitle": "Kung saan kami matatagpuan"
+    }
+  }
+}

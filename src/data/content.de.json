@@ -1,0 +1,137 @@
+{
+  "site": {
+    "name": "Unterhecherhof",
+    "description": "Erleben Sie das Herz Tirols. Unser familiengeführtes B&B bietet ein authentisches Bauernhoferlebnis mit modernen Annehmlichkeiten und atemberaubender Aussicht."
+  },
+  "contact": {
+    "address": {
+      "street": "Bannberg 48",
+      "city": "9911 Bannberg",
+      "country": "Österreich",
+      "footerAddress": "Bannberg 48\n9911 Bannberg\nOsttirol, Österreich",
+      "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
+    },
+    "phone": "+43 632 29 61 77",
+    "whatsappLink": "https://wa.me/43632296177",
+    "email": "info@unterhecherhof.at",
+    "instagram": "https://www.instagram.com/unterhecherhof/"
+  },
+  "booking": {
+    "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
+    "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
+    "goodToKnow": [
+      "Check-in: 15:00 - 20:00",
+      "Check-out: 08:00 - 10:00",
+      "Kostenlose Privatparkplätze",
+      "Bauernfrühstück inklusive",
+      "Kinder sind willkommen",
+      "Haustiere nicht erlaubt"
+    ]
+  },
+  "directions": {
+    "fromLienz": "Nehmen Sie die B100 in Richtung Sillian. Nach ca. 3 km biegen Sie rechts ab Richtung Bannberg. Folgen Sie der kurvigen Bergstraße für 4 km bis Sie das Dorf erreichen.",
+    "winterDriving": "Winterreifen sind von November bis April Pflicht. Schneeketten werden bei starkem Schneefall empfohlen."
+  },
+  "hero": {
+    "title": "Authentischer Bauernhofurlaub in Bannberg, Tirol",
+    "subtitle": "Erleben Sie den Charme eines historischen Bauernhauses im Herzen der Dolomiten.",
+    "buttonText": "Jetzt buchen",
+    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+  },
+  "about": {
+    "tagline": "Unser Erbe",
+    "title": "Familiäre Gastfreundschaft",
+    "description": "Auf 1.200 Metern Höhe in den Lienzer Dolomiten gelegen, bietet der Unterhecherhof einen Platz in der ersten Reihe für das majestätischste Bergtheater der Natur. Hier verblasst das Chaos der modernen Welt in einer tiefen Stille, die nur vom sanften Läuten ferner Kuhglocken und der Bergbrise unterbrochen wird. Erleben Sie die Seele eines 500 Jahre alten Bauernhofs, der sorgfältig renoviert wurde, um historische Tiroler Seele und Charme mit der intimen, herzlichen Gastfreundschaft eines familiengeführten Rückzugsortes zu verbinden. Entspannen Sie sich in modernen, lichtdurchfluteten Räumen, in denen schlankes Design auf die raue Schönheit der Alpen direkt vor Ihrem privaten Balkon trifft. \nDies ist nicht nur ein Aufenthalt; es ist eine seltene Gelegenheit, tief durchzuatmen, neue Energie zu tanken und in den Höhen wirklich nach Hause zu kommen.",
+    "highlights": [
+      { "icon": "History", "text": "Erleben Sie die Geschichte und Seele Tirols" },
+      { "icon": "Mountain", "text": "Kommen Sie nach Hause in die Berge" },
+      { "icon": "Users", "text": "Familiengeführt" }
+    ],
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "features": {
+    "title": "Warum bei uns übernachten?",
+    "subtitle": "Authentische Erlebnisse im Herzen der Berge",
+    "items": [
+      {
+        "icon": "Mountain",
+        "title": "Bergblick",
+        "description": "Erstaunliche Aussichten, Skipisten und Radwege, um die Natur das ganze Jahr über in ihrer majestätischsten Form zu genießen."
+      },
+      {
+        "icon": "BellOff",
+        "title": "Ruhiges Dorf",
+        "description": "Finden Sie absolute Ruhe in der friedlichen und sauberen Atmosphäre von Bannberg."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Bauernfrühstück",
+        "description": "Beginnen Sie Ihren Tag mit frischer, wirklich lokaler Milch, Eiern und hausgemachten Leckereien."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Gastfreundschaft",
+        "description": "Echte Wärme und persönliche Betreuung von Ihren Gastgebern in einem kleinen B&B."
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Unsere Unterkünfte",
+    "subtitle": "Gemütliche Räume für Ihren Komfort",
+    "buttonText": "Verfügbarkeit prüfen"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Ein Blick in unsere wunderschöne Umgebung",
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+    ]
+  },
+  "ui": {
+    "nav": {
+      "rooms": "Zimmer",
+      "about": "Über uns",
+      "experience": "Erlebnis",
+      "contact": "Kontakt",
+      "bookNow": "Jetzt buchen"
+    },
+    "bookingModal": {
+      "title": "Buchen Sie Ihren Aufenthalt",
+      "subtitle": "Wählen Sie Ihre bevorzugte Buchungsplattform oder kontaktieren Sie uns direkt.",
+      "instantConfirmation": "Sofortige Bestätigung",
+      "bestPrice": "Bestpreisgarantie",
+      "goodToKnow": "Gut zu wissen"
+    },
+    "contactModal": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Wir würden uns freuen, von Ihnen zu hören. Bei Fragen können Sie sich gerne an uns wenden.",
+      "address": "Adresse",
+      "viewMap": "Auf Google Maps ansehen",
+      "phone": "WhatsApp / Telefon",
+      "messageWhatsapp": "Nachricht auf WhatsApp",
+      "email": "E-Mail",
+      "sendEmail": "E-Mail senden",
+      "directions": "Wegbeschreibung",
+      "fromLienz": "Von Lienz:",
+      "winterDriving": "Winterfahrten:"
+    },
+    "footer": {
+      "contact": "Kontakt",
+      "quickLinks": "Schnelle Links",
+      "bookStay": "Buchen Sie Ihren Aufenthalt",
+      "whatsappUs": "WhatsApp uns",
+      "directionsInfo": "Wegbeschreibung & Info",
+      "secureBooking": "Sicheres Buchungssystem",
+      "allRightsReserved": "Alle Rechte vorbehalten."
+    },
+    "map": {
+      "title": "Karte",
+      "subtitle": "Wo Sie uns finden"
+    }
+  }
+}
