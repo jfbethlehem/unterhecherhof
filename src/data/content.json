@@ -5,10 +5,10 @@
   },
   "contact": {
     "address": {
-      "street": "48 Bannberg",
+      "street": "Bannberg 48",
       "city": "9911 Bannberg",
       "country": "Austria",
-      "footerAddress": "Bannberg 12, 9911 Assling,\nEast Tyrol, Austria",
+      "footerAddress": "Bannberg 48\n9911 Bannberg\nEast Tyrol, Austria",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
     "phone": "+43 632 29 61 77",
@@ -41,9 +41,10 @@
   "about": {
     "tagline": "Our Heritage",
     "title": "Family-Run Hospitality",
-    "description": "Our historic farmhouse has been lovingly renovated to offer modern comfort while preserving its authentic Tyrolean soul. Experience true Alpine life with the Unterhecher family, where tradition meets comfort in the peaceful village of Bannberg.",
+    "description": "Perched 1,200 meters high in the Lienz Dolomites, Unterhecherhof offers a front-row seat to nature’s most majestic mountain theater. Here, the chaos of the modern world fades into a profound silence, broken only by the soft chime of distant cowbells and the mountain breeze. Experience the soul of a 500-year-old farm, thoughtfully renovated to blend historic Tyrolean soul and charm with the intimate, warm hospitality of a family-run retreat. Unwind in modern, light-filled spaces where sleek design meets the rugged beauty of the Alps right outside your private balcony. \nThis isn't just a stay; it’s a rare chance to breathe deeply, recharge, and truly come home to the heights.",
     "highlights": [
-      { "icon": "History", "text": "Historic Roots" },
+      { "icon": "History", "text": "Experience the history and soul of Tyrol" },
+      { "icon": "Mountain", "text": "Come home to the mountains" },
       { "icon": "Users", "text": "Family Hosted" }
     ],
     "images": [
@@ -58,12 +59,12 @@
       {
         "icon": "Mountain",
         "title": "Mountain Views",
-        "description": "Amazing views, skipistes and cycling trails to enjoy nature at it's most majestic."
+        "description": "Amazing views, skipistes and cycling trails to enjoy nature at it's most majestic all year round."
       },
       {
         "icon": "BellOff",
         "title": "Quiet Village",
-        "description": "Find absolute peace in the tranquil atmosphere of Bannberg."
+        "description": "Find absolute peace in the tranquil and clean atmosphere of Bannberg."
       },
       {
         "icon": "Coffee",
@@ -73,7 +74,7 @@
       {
         "icon": "HeartHandshake",
         "title": "Hospitality",
-        "description": "Genuine warmth and personal care from your hosts."
+        "description": "Genuine warmth and personal care from your hosts at a small scale BnB."
       }
     ]
   },
