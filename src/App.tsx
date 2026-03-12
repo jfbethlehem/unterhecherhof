@@ -3,7 +3,7 @@ import {
   Mountain, Menu, History, Users, BellOff, Coffee, 
   HeartHandshake, ArrowRight, Wifi, Sun, Utensils, 
   Star, MapPin, Mail, MessageCircle, CreditCard,
-  Instagram, X, Check, Calendar
+  Instagram, X, Check, Calendar, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import roomsData from './data/rooms.json';
@@ -28,7 +28,136 @@ const iconMap: Record<string, React.ElementType> = {
   Calendar
 };
 
-function RoomCard({ room, onBook }: { key?: string | number, room: any, onBook: () => void }) {
+export type ImageGroup = {
+  images: string[];
+  initialIndex: number;
+};
+
+function ImageModal({ imageGroup, onClose }: { imageGroup: ImageGroup | null; onClose: () => void }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    if (imageGroup) {
+      setCurrentIndex(imageGroup.initialIndex);
+    }
+  }, [imageGroup]);
+
+  if (!imageGroup || !imageGroup.images || imageGroup.images.length === 0) return null;
+
+  const next = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev + 1) % imageGroup.images.length);
+  };
+
+  const prev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev - 1 + imageGroup.images.length) % imageGroup.images.length);
+  };
+
+  return (
+    <AnimatePresence>
+      {imageGroup && (
+        <motion.div 
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          exit={{ opacity: 0 }}
+          onClick={onClose}
+          className="fixed inset-0 z-[200] flex items-center justify-center bg-black/90 p-4 backdrop-blur-md cursor-zoom-out"
+        >
+          <button onClick={onClose} className="absolute right-4 top-4 rounded-full bg-white/10 p-2 text-white hover:bg-white/20 transition-colors z-[201]">
+            <X className="h-6 w-6" />
+          </button>
+          
+          {imageGroup.images.length > 1 && (
+            <>
+              <button onClick={prev} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white p-3 rounded-full transition-all z-[201]">
+                <ChevronLeft className="h-8 w-8" />
+              </button>
+              <button onClick={next} className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white p-3 rounded-full transition-all z-[201]">
+                <ChevronRight className="h-8 w-8" />
+              </button>
+            </>
+          )}
+
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={currentIndex}
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              src={imageGroup.images[currentIndex]}
+              alt="Enlarged view"
+              className="max-h-[90vh] max-w-[90vw] object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </AnimatePresence>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
+function GallerySlideshow({ images, onImageClick }: { images: string[], onImageClick: (group: ImageGroup) => void }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    if (!images || images.length <= 1) return;
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [images]);
+
+  const next = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  return (
+    <div className="relative w-full h-[500px] rounded-2xl overflow-hidden group shadow-xl">
+      <AnimatePresence mode="wait">
+        <motion.img
+          key={currentIndex}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.8 }}
+          src={images[currentIndex]}
+          alt={`Gallery image ${currentIndex + 1}`}
+          className="absolute inset-0 w-full h-full object-cover cursor-zoom-in"
+          onClick={() => onImageClick({ images, initialIndex: currentIndex })}
+        />
+      </AnimatePresence>
+      
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
+      
+      <button onClick={prev} className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-all z-10">
+        <ChevronLeft className="h-6 w-6" />
+      </button>
+      <button onClick={next} className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-all z-10">
+        <ChevronRight className="h-6 w-6" />
+      </button>
+
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+        {images.map((_, idx) => (
+          <button 
+            key={idx}
+            onClick={(e) => { e.stopPropagation(); setCurrentIndex(idx); }}
+            className={`w-2.5 h-2.5 rounded-full transition-all ${idx === currentIndex ? 'bg-white scale-125' : 'bg-white/50 hover:bg-white/80'}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function RoomCard({ room, onBook, onImageClick }: { key?: string | number, room: any, onBook: () => void, onImageClick: (group: ImageGroup) => void }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -43,7 +172,10 @@ function RoomCard({ room, onBook }: { key?: string | number, room: any, onBook: 
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-primary/10 flex flex-col sm:flex-row h-full">
-      <div className="sm:w-2/5 h-64 sm:h-auto shrink-0 relative overflow-hidden">
+      <div 
+        className="sm:w-2/5 h-64 sm:h-auto shrink-0 relative overflow-hidden cursor-zoom-in"
+        onClick={() => onImageClick({ images: room.images, initialIndex: currentImageIndex })}
+      >
         <AnimatePresence mode="wait">
           <motion.img 
             key={currentImageIndex}
@@ -220,6 +352,7 @@ export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [selectedImageGroup, setSelectedImageGroup] = useState<ImageGroup | null>(null);
 
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
@@ -231,6 +364,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
+      <ImageModal imageGroup={selectedImageGroup} onClose={() => setSelectedImageGroup(null)} />
       {/* Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -402,7 +536,7 @@ export default function App() {
           
           <div className="grid lg:grid-cols-2 gap-8">
             {roomsData.map((room) => (
-              <RoomCard key={room.id} room={room} onBook={() => setIsBookingOpen(true)} />
+              <RoomCard key={room.id} room={room} onBook={() => setIsBookingOpen(true)} onImageClick={setSelectedImageGroup} />
             ))}
           </div>
         </section>
@@ -411,8 +545,8 @@ export default function App() {
         <section className="py-24 bg-primary text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Guest Reviews</h2>
-              <p className="text-white/80 font-sans">See what our guests have to say on Google</p>
+              <h2 className="text-3xl font-bold mb-4">Map</h2>
+              <p className="text-white/80 font-sans">Where to find us</p>
             </div>
             
             <div className="bg-white rounded-2xl p-4 overflow-hidden shadow-xl min-h-[400px] flex items-center justify-center relative">
@@ -429,6 +563,16 @@ export default function App() {
                 <p>Your browser does not support iframes.</p>
               </iframe>
             </div>
+
+            {contentData.gallery && contentData.gallery.images && contentData.gallery.images.length > 0 && (
+              <div className="mt-16">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl font-bold mb-4">{contentData.gallery.title}</h2>
+                  <p className="text-white/80 font-sans">{contentData.gallery.subtitle}</p>
+                </div>
+                <GallerySlideshow images={contentData.gallery.images} onImageClick={setSelectedImageGroup} />
+              </div>
+            )}
           </div>
         </section>
       </main>
