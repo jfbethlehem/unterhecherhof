@@ -35,21 +35,25 @@
   "hero": {
     "title": "Tunay na Alpine Farm Stay sa Bannberg, Tyrol",
     "subtitle": "Damhin ang alindog ng isang makasaysayang farmhouse na matatagpuan sa gitna ng Dolomites.",
-    "buttonText": "Mag-book Ngayon",
-    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+    "buttonText": "Mag-book Ngayon"
   },
   "about": {
     "tagline": "Ang Aming Pamana",
     "title": "Pampamilyang Mabuting Pagtanggap",
     "description": "Nakatayo ng 1,200 metro ang taas sa Lienz Dolomites, ang Unterhecherhof ay nag-aalok ng upuan sa unahan para sa pinakamaringal na teatro sa bundok ng kalikasan. Dito, ang kaguluhan ng modernong mundo ay naglalaho sa isang malalim na katahimikan, na binabasag lamang ng malambot na tunog ng malalayong kampana ng baka at simoy ng bundok. Damhin ang kaluluwa ng isang 500-taong-gulang na bukid, na maingat na inayos upang paghaluin ang makasaysayang kaluluwa at alindog ng Tyrolean sa matalik at mainit na pagtanggap ng isang pampamilyang pahingahan. Magpahinga sa mga moderno at maliwanag na espasyo kung saan ang makinis na disenyo ay nakakatugon sa masungit na kagandahan ng Alps sa labas mismo ng iyong pribadong balkonahe.\nIto ay hindi lamang isang pagtuloy; ito ay isang pambihirang pagkakataon upang huminga nang malalim, mag-recharge, at tunay na umuwi sa kaitaasan.",
     "highlights": [
-      { "icon": "History", "text": "Damhin ang kasaysayan at kaluluwa ng Tyrol" },
-      { "icon": "Mountain", "text": "Umuwi sa mga bundok" },
-      { "icon": "Users", "text": "Pampamilyang Pagho-host" }
-    ],
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+      {
+        "icon": "History",
+        "text": "Damhin ang kasaysayan at kaluluwa ng Tyrol"
+      },
+      {
+        "icon": "Mountain",
+        "text": "Umuwi sa mga bundok"
+      },
+      {
+        "icon": "Users",
+        "text": "Pampamilyang Pagho-host"
+      }
     ]
   },
   "features": {
@@ -85,12 +89,7 @@
   },
   "gallery": {
     "title": "Gallery",
-    "subtitle": "Isang sulyap sa aming magandang kapaligiran",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
-    ]
+    "subtitle": "Isang sulyap sa aming magandang kapaligiran"
   },
   "ui": {
     "nav": {

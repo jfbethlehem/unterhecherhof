@@ -35,21 +35,25 @@
   "hero": {
     "title": "Autentico Soggiorno in Fattoria Alpina a Bannberg, Tirolo",
     "subtitle": "Vivi il fascino di una storica casa colonica immersa nel cuore delle Dolomiti.",
-    "buttonText": "Prenota Ora",
-    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+    "buttonText": "Prenota Ora"
   },
   "about": {
     "tagline": "La Nostra Eredità",
     "title": "Ospitalità a Conduzione Familiare",
     "description": "Arroccato a 1.200 metri di altezza nelle Dolomiti di Lienz, l'Unterhecherhof offre un posto in prima fila per il teatro di montagna più maestoso della natura. Qui, il caos del mondo moderno svanisce in un silenzio profondo, rotto solo dal dolce rintocco dei campanacci lontani e dalla brezza di montagna. Vivi l'anima di una fattoria di 500 anni, accuratamente ristrutturata per fondere l'anima e il fascino storico tirolese con l'ospitalità intima e calorosa di un rifugio a conduzione familiare. Rilassati in spazi moderni e luminosi dove il design elegante incontra la bellezza aspra delle Alpi appena fuori dal tuo balcone privato.\nQuesto non è solo un soggiorno; è una rara occasione per respirare profondamente, ricaricarsi e tornare veramente a casa in alta quota.",
     "highlights": [
-      { "icon": "History", "text": "Vivi la storia e l'anima del Tirolo" },
-      { "icon": "Mountain", "text": "Torna a casa in montagna" },
-      { "icon": "Users", "text": "Ospitato dalla Famiglia" }
-    ],
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+      {
+        "icon": "History",
+        "text": "Vivi la storia e l'anima del Tirolo"
+      },
+      {
+        "icon": "Mountain",
+        "text": "Torna a casa in montagna"
+      },
+      {
+        "icon": "Users",
+        "text": "Ospitato dalla Famiglia"
+      }
     ]
   },
   "features": {
@@ -85,12 +89,7 @@
   },
   "gallery": {
     "title": "Galleria",
-    "subtitle": "Uno sguardo ai nostri splendidi dintorni",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
-    ]
+    "subtitle": "Uno sguardo ai nostri splendidi dintorni"
   },
   "ui": {
     "nav": {

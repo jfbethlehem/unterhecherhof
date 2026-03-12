@@ -3,13 +3,15 @@
     "id": "deluxe-double",
     "name": "Deluxe Doppelzimmer",
     "description": "Dieses Doppelzimmer bietet kostenlose Pflegeprodukte und ein eigenes Bad mit ebenerdiger Dusche, Bidet und Haartrockner. Das Doppelzimmer verfügt über eine Tee- und Kaffeemaschine, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit bietet 1 Bett.",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701577047.jpg?k=ad3508301b8921baac65945a83bc56a4cb8f6e92df477ff0ca27694a9cce039f&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701576165.jpg?k=33426cd663155ece50636bc2d2ea6a275e2ed3cb50dbe10215ab2453f0418692&o=&a=2237691"
-    ],
     "amenities": [
-      { "icon": "Wifi", "text": "Kostenloses Highspeed-WLAN" },
-      { "icon": "Bathroom", "text": "Eigenes Badezimmer" }
+      {
+        "icon": "Wifi",
+        "text": "Kostenloses Highspeed-WLAN"
+      },
+      {
+        "icon": "Bathroom",
+        "text": "Eigenes Badezimmer"
+      }
     ],
     "buttonText": "Zimmer buchen"
   },
@@ -17,14 +19,19 @@
     "id": "3-bedroom-apartment",
     "name": "3-Schlafzimmer-Apartment",
     "description": "Dieses geräumige Apartment umfasst 1 Wohnzimmer, 3 separate Schlafzimmer und 1 Badezimmer mit ebenerdiger Dusche und kostenlosen Pflegeprodukten. In der gut ausgestatteten Küche finden die Gäste ein Kochfeld, einen Kühlschrank, einen Geschirrspüler und Küchenutensilien. Das Apartment verfügt auch über einen Grill. Dieses Apartment bietet eine Waschmaschine, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit hat 4 Betten.",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725570376.jpg?k=76b7029dff46a88417450ab9f4612d7d43141f5954a7706b4c7d89ea9f4d6d95&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/710874311.jpg?k=caa279f6bf254c35ccf2b48905ead8e1dee2a111453fa1a5a52504606aae5263&o=&a=2237691"
-    ],
     "amenities": [
-      { "icon": "Users", "text": "Schlafplätze für bis zu 6" },
-      { "icon": "Sun", "text": "Privater Balkon" },
-      { "icon": "Utensils", "text": "Voll ausgestattete Küche" }
+      {
+        "icon": "Users",
+        "text": "Schlafplätze für bis zu 6"
+      },
+      {
+        "icon": "Sun",
+        "text": "Privater Balkon"
+      },
+      {
+        "icon": "Utensils",
+        "text": "Voll ausgestattete Küche"
+      }
     ],
     "buttonText": "Apartment buchen"
   }

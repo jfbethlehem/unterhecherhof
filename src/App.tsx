@@ -17,13 +17,17 @@ import roomsDataIt from './data/rooms.it.json';
 import contentDataIt from './data/content.it.json';
 import roomsDataTl from './data/rooms.tl.json';
 import contentDataTl from './data/content.tl.json';
+import roomsDataNl from './data/rooms.nl.json';
+import contentDataNl from './data/content.nl.json';
+import imagesData from './data/images.json';
 
 const contentDataMap = {
   en: contentDataEn,
   de: contentDataDe,
   fr: contentDataFr,
   it: contentDataIt,
-  tl: contentDataTl
+  tl: contentDataTl,
+  nl: contentDataNl
 };
 
 const roomsDataMap = {
@@ -31,17 +35,19 @@ const roomsDataMap = {
   de: roomsDataDe,
   fr: roomsDataFr,
   it: roomsDataIt,
-  tl: roomsDataTl
+  tl: roomsDataTl,
+  nl: roomsDataNl
 };
 
-type Language = 'en' | 'de' | 'fr' | 'it' | 'tl';
+type Language = 'en' | 'de' | 'fr' | 'it' | 'tl' | 'nl';
 
 const languageNames: Record<Language, string> = {
   en: 'English',
   de: 'Deutsch',
   fr: 'Français',
   it: 'Italiano',
-  tl: 'Filipino'
+  tl: 'Filipino',
+  nl: 'Nederlands'
 };
 
 const LanguageContext = React.createContext<{
@@ -425,7 +431,9 @@ function LanguageSelector({ language, setLanguage }: { language: Language, setLa
               exit={{ opacity: 0, y: 10 }}
               className="absolute right-0 mt-2 w-32 bg-white rounded-xl shadow-lg border border-slate-100 py-2 z-20"
             >
-              {(Object.keys(languageNames) as Language[]).map((lang) => (
+              {(Object.keys(languageNames) as Language[])
+                .sort((a, b) => languageNames[a].localeCompare(languageNames[b]))
+                .map((lang) => (
                 <button
                   key={lang}
                   onClick={() => {
@@ -535,7 +543,7 @@ function MainApp() {
             <img 
               alt="Hero background" 
               className="w-full h-full object-cover" 
-              src={contentData.hero.image}
+              src={imagesData.hero}
             />
           </div>
           <div className="relative z-20 text-center px-4 max-w-4xl">
@@ -595,12 +603,12 @@ function MainApp() {
               <img 
                 alt="Exterior" 
                 className="rounded-2xl h-64 w-full object-cover shadow-lg" 
-                src={contentData.about.images[0]}
+                src={imagesData.about[0]}
               />
               <img 
                 alt="Sheep" 
                 className="rounded-2xl h-64 w-full object-cover shadow-lg mt-8" 
-                src={contentData.about.images[1]}
+                src={imagesData.about[1]}
               />
             </div>
           </div>
@@ -642,7 +650,7 @@ function MainApp() {
           
           <div className="grid lg:grid-cols-2 gap-8">
             {roomsData.map((room) => (
-              <RoomCard key={room.id} room={room} onBook={() => setIsBookingOpen(true)} onImageClick={setSelectedImageGroup} />
+              <RoomCard key={room.id} room={{...room, images: imagesData.rooms[room.id as keyof typeof imagesData.rooms]}} onBook={() => setIsBookingOpen(true)} onImageClick={setSelectedImageGroup} />
             ))}
           </div>
         </section>
@@ -670,13 +678,13 @@ function MainApp() {
               </iframe>
             </div>
 
-            {contentData.gallery && contentData.gallery.images && contentData.gallery.images.length > 0 && (
+            {imagesData.gallery && imagesData.gallery.length > 0 && (
               <div className="mt-16">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl font-bold mb-4">{contentData.gallery.title}</h2>
                   <p className="text-white/80 font-sans">{contentData.gallery.subtitle}</p>
                 </div>
-                <GallerySlideshow images={contentData.gallery.images} onImageClick={setSelectedImageGroup} />
+                <GallerySlideshow images={imagesData.gallery} onImageClick={setSelectedImageGroup} />
               </div>
             )}
           </div>

@@ -35,21 +35,25 @@
   "hero": {
     "title": "Séjour Authentique à la Ferme Alpine à Bannberg, Tyrol",
     "subtitle": "Découvrez le charme d'une ferme historique nichée au cœur des Dolomites.",
-    "buttonText": "Réserver",
-    "image": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691"
+    "buttonText": "Réserver"
   },
   "about": {
     "tagline": "Notre Héritage",
     "title": "Hospitalité Familiale",
     "description": "Perché à 1 200 mètres d'altitude dans les Dolomites de Lienz, l'Unterhecherhof offre une place de choix au théâtre de montagne le plus majestueux de la nature. Ici, le chaos du monde moderne s'estompe dans un silence profond, rompu seulement par le doux carillon des cloches de vaches lointaines et la brise de montagne. Découvrez l'âme d'une ferme vieille de 500 ans, soigneusement rénovée pour allier l'âme et le charme historiques du Tyrol à l'hospitalité intime et chaleureuse d'une retraite familiale. Détendez-vous dans des espaces modernes et lumineux où le design épuré rencontre la beauté sauvage des Alpes juste à l'extérieur de votre balcon privé.\nCe n'est pas juste un séjour ; c'est une occasion rare de respirer profondément, de se ressourcer et de vraiment rentrer chez soi sur les hauteurs.",
     "highlights": [
-      { "icon": "History", "text": "Découvrez l'histoire et l'âme du Tyrol" },
-      { "icon": "Mountain", "text": "Rentrez chez vous dans les montagnes" },
-      { "icon": "Users", "text": "Hébergement familial" }
-    ],
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+      {
+        "icon": "History",
+        "text": "Découvrez l'histoire et l'âme du Tyrol"
+      },
+      {
+        "icon": "Mountain",
+        "text": "Rentrez chez vous dans les montagnes"
+      },
+      {
+        "icon": "Users",
+        "text": "Hébergement familial"
+      }
     ]
   },
   "features": {
@@ -85,12 +89,7 @@
   },
   "gallery": {
     "title": "Galerie",
-    "subtitle": "Un aperçu de nos magnifiques environs",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
-    ]
+    "subtitle": "Un aperçu de nos magnifiques environs"
   },
   "ui": {
     "nav": {

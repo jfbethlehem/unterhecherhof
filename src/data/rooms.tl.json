@@ -3,13 +3,15 @@
     "id": "deluxe-double",
     "name": "Deluxe Double Room",
     "description": "Nag-aalok ng libreng toiletries, ang double room na ito ay may kasamang pribadong banyo na may walk-in shower, bidet, at hairdryer. Nagtatampok ang double room na ito ng tea at coffee maker, flat-screen TV na may mga streaming service, mga tanawin ng hardin, pati na rin ang alak/champagne para sa mga bisita. Nag-aalok ang unit ng 1 kama.",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701577047.jpg?k=ad3508301b8921baac65945a83bc56a4cb8f6e92df477ff0ca27694a9cce039f&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701576165.jpg?k=33426cd663155ece50636bc2d2ea6a275e2ed3cb50dbe10215ab2453f0418692&o=&a=2237691"
-    ],
     "amenities": [
-      { "icon": "Wifi", "text": "Libreng High-speed WiFi" },
-      { "icon": "Bathroom", "text": "Pribadong banyo" }
+      {
+        "icon": "Wifi",
+        "text": "Libreng High-speed WiFi"
+      },
+      {
+        "icon": "Bathroom",
+        "text": "Pribadong banyo"
+      }
     ],
     "buttonText": "Mag-book ng Kuwarto"
   },
@@ -17,14 +19,19 @@
     "id": "3-bedroom-apartment",
     "name": "3-Bedroom Apartment",
     "description": "Kasama sa maluwag na apartment na ito ang 1 sala, 3 magkakahiwalay na silid-tulugan at 1 banyo na may walk-in shower at libreng toiletries. Makakahanap ang mga bisita ng stovetop, refrigerator, dishwasher, at kitchenware sa kusinang kumpleto sa gamit. Nagtatampok din ang apartment ng barbecue. Ang apartment na ito ay may washing machine, flat-screen TV na may mga streaming service, mga tanawin ng hardin, pati na rin ang alak/champagne para sa mga bisita. Ang unit ay may 4 na kama.",
-    "images": [
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725570376.jpg?k=76b7029dff46a88417450ab9f4612d7d43141f5954a7706b4c7d89ea9f4d6d95&o=&a=2237691",
-      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/710874311.jpg?k=caa279f6bf254c35ccf2b48905ead8e1dee2a111453fa1a5a52504606aae5263&o=&a=2237691"
-    ],
     "amenities": [
-      { "icon": "Users", "text": "Maaaring tulugan ng hanggang 6" },
-      { "icon": "Sun", "text": "Pribadong balkonahe" },
-      { "icon": "Utensils", "text": "Kumpletong Kusina" }
+      {
+        "icon": "Users",
+        "text": "Maaaring tulugan ng hanggang 6"
+      },
+      {
+        "icon": "Sun",
+        "text": "Pribadong balkonahe"
+      },
+      {
+        "icon": "Utensils",
+        "text": "Kumpletong Kusina"
+      }
     ],
     "buttonText": "Mag-book ng Apartment"
   }

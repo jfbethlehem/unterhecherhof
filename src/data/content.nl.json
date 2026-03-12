@@ -1,0 +1,136 @@
+{
+  "site": {
+    "name": "Unterhecherhof",
+    "description": "Ervaar het hart van Tirol. Onze door een familie beheerde B&B biedt een authentieke boerderijervaring met moderne voorzieningen en een prachtig uitzicht."
+  },
+  "contact": {
+    "address": {
+      "street": "Bannberg 48",
+      "city": "9911 Bannberg",
+      "country": "Oostenrijk",
+      "footerAddress": "Bannberg 48\n9911 Bannberg\nOost-Tirol, Oostenrijk",
+      "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
+    },
+    "phone": "+43 632 29 61 77",
+    "whatsappLink": "https://wa.me/43632296177",
+    "email": "info@unterhecherhof.at",
+    "instagram": "https://www.instagram.com/unterhecherhof/"
+  },
+  "booking": {
+    "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
+    "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
+    "goodToKnow": [
+      "Inchecken: 15:00 - 20:00",
+      "Uitchecken: 08:00 - 10:00",
+      "Gratis privéparkeergelegenheid",
+      "Boerenontbijt inbegrepen",
+      "Kinderen zijn welkom",
+      "Huisdieren niet toegestaan"
+    ]
+  },
+  "directions": {
+    "fromLienz": "Neem de B100 in westelijke richting naar Sillian. Sla na ongeveer 3 km rechtsaf richting Bannberg. Volg de kronkelende bergweg 4 km tot u het dorp bereikt.",
+    "winterDriving": "Winterbanden zijn verplicht van november tot april. Sneeuwkettingen worden aanbevolen bij zware sneeuwval."
+  },
+  "hero": {
+    "title": "Authentieke boerderijvakantie in de Alpen in Bannberg, Tirol",
+    "subtitle": "Ervaar de charme van een historische boerderij in het hart van de Dolomieten.",
+    "buttonText": "Nu boeken"
+  },
+  "about": {
+    "tagline": "Ons Erfgoed",
+    "title": "Familiale Gastvrijheid",
+    "description": "Hoog gelegen op 1.200 meter in de Lienz Dolomieten, biedt de Unterhecherhof een eersterangs plek voor het meest majestueuze bergtheater van de natuur. Hier vervaagt de chaos van de moderne wereld in een diepe stilte, alleen doorbroken door het zachte geluid van verre koeienbellen en de bergwind. Ervaar de ziel van een 500 jaar oude boerderij, zorgvuldig gerenoveerd om de historische ziel en charme van Tirol te combineren met de intieme, warme gastvrijheid van een toevluchtsoord voor het hele gezin. Ontspan in moderne, lichte ruimtes waar strak design de ruige schoonheid van de Alpen direct buiten uw privébalkon ontmoet.\nDit is niet zomaar een verblijf; het is een zeldzame kans om diep adem te halen, op te laden en echt thuis te komen op grote hoogte.",
+    "highlights": [
+      {
+        "icon": "History",
+        "text": "Ervaar de geschiedenis en ziel van Tirol"
+      },
+      {
+        "icon": "Mountain",
+        "text": "Kom thuis in de bergen"
+      },
+      {
+        "icon": "Users",
+        "text": "Door een familie beheerd"
+      }
+    ]
+  },
+  "features": {
+    "title": "Waarom bij ons verblijven?",
+    "subtitle": "Authentieke ervaringen in het hart van de bergen",
+    "items": [
+      {
+        "icon": "Mountain",
+        "title": "Uitzicht op de bergen",
+        "description": "Ongelooflijke uitzichten, skipistes en fietspaden om het hele jaar door te genieten van de natuur op haar best."
+      },
+      {
+        "icon": "BellOff",
+        "title": "Vreedzaam dorp",
+        "description": "Vind absolute rust in de rustige, schone lucht van Bannberg."
+      },
+      {
+        "icon": "Coffee",
+        "title": "Boerenontbijt",
+        "description": "Begin uw dag met echt lokale verse melk, eieren en zelfgemaakte lekkernijen."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Gastvrijheid",
+        "description": "Oprechte warmte en persoonlijke zorg van uw gastheren in een kleine B&B."
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Onze Accommodaties",
+    "subtitle": "Gezellige ruimtes ontworpen voor uw comfort",
+    "buttonText": "Beschikbaarheid Controleren"
+  },
+  "gallery": {
+    "title": "Galerij",
+    "subtitle": "Een blik op onze prachtige omgeving"
+  },
+  "ui": {
+    "nav": {
+      "rooms": "Kamers",
+      "about": "Over ons",
+      "experience": "Ervaring",
+      "contact": "Contact",
+      "bookNow": "Nu boeken"
+    },
+    "bookingModal": {
+      "title": "Boek uw verblijf",
+      "subtitle": "Kies uw favoriete boekingsplatform of neem rechtstreeks contact met ons op.",
+      "instantConfirmation": "Directe bevestiging",
+      "bestPrice": "Beste prijsgarantie",
+      "goodToKnow": "Goed om te weten"
+    },
+    "contactModal": {
+      "title": "Neem contact met ons op",
+      "subtitle": "We horen graag van u. Neem contact op als u vragen heeft.",
+      "address": "Adres",
+      "viewMap": "Bekijk op Google Maps",
+      "phone": "WhatsApp / Telefoon",
+      "messageWhatsapp": "Stuur een bericht via WhatsApp",
+      "email": "E-mail",
+      "sendEmail": "Stuur een e-mail",
+      "directions": "Routebeschrijving",
+      "fromLienz": "Vanuit Lienz:",
+      "winterDriving": "Rijden in de winter:"
+    },
+    "footer": {
+      "contact": "Neem contact met ons op",
+      "quickLinks": "Snelle links",
+      "bookStay": "Boek uw verblijf",
+      "whatsappUs": "WhatsApp ons",
+      "directionsInfo": "Routebeschrijving & Info",
+      "secureBooking": "Veilig boekingssysteem",
+      "allRightsReserved": "Alle rechten voorbehouden."
+    },
+    "map": {
+      "title": "Kaart",
+      "subtitle": "Waar u ons kunt vinden"
+    }
+  }
+}

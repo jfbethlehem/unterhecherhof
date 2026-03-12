@@ -1,0 +1,22 @@
+{
+  "hero": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
+  "about": [
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+  ],
+  "gallery": [
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725830474.jpg?k=065599dc3d2ab4ea11a2930424f8a0d01a609dd0e4a34520ab2b4ec8bc9b8cb7&o=&a=2237691",
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642754560.jpg?k=3bae97af2795b19de6df95682df96842a03cc9fca38e6fc570b7eb8b1b32471d&o=&a=2237691",
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/642756101.jpg?k=c3c4c4bc7e830e112ec765ae8c3c63993389cdb435eb7af4ba1454aebab7a67f&o=&a=2237691"
+  ],
+  "rooms": {
+    "deluxe-double": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701577047.jpg?k=ad3508301b8921baac65945a83bc56a4cb8f6e92df477ff0ca27694a9cce039f&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/701576165.jpg?k=33426cd663155ece50636bc2d2ea6a275e2ed3cb50dbe10215ab2453f0418692&o=&a=2237691"
+    ],
+    "3-bedroom-apartment": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/725570376.jpg?k=76b7029dff46a88417450ab9f4612d7d43141f5954a7706b4c7d89ea9f4d6d95&o=&a=2237691",
+      "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/710874311.jpg?k=caa279f6bf254c35ccf2b48905ead8e1dee2a111453fa1a5a52504606aae5263&o=&a=2237691"
+    ]
+  }
+}
