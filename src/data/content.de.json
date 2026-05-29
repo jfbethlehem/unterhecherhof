@@ -1,19 +1,19 @@
 {
   "site": {
     "name": "Unterhecherhof",
-    "description": "Erleben Sie das Herz Tirols. Unser familiengeführtes B&B bietet ein authentisches Bauernhoferlebnis mit modernen Annehmlichkeiten und atemberaubender Aussicht."
+    "description": "Erleben Sie das Herz Tirols. Unsere familiengeführte Pension bietet ein authentisches Bauernhof-Erlebnis mit modernen Annehmlichkeiten und atemberaubender Aussicht."
   },
   "contact": {
     "address": {
       "street": "Bannberg 48",
-      "city": "9911 Bannberg",
+      "city": "9911 Assling",
       "country": "Österreich",
       "footerAddress": "Bannberg 48\n9911 Bannberg\nOsttirol, Österreich",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
-    "phone": "+43 632 29 61 77",
+    "phone": "+43 664 3434 125",
     "whatsappLink": "https://wa.me/43632296177",
-    "email": "info@unterhecherhof.at",
+    "email": "unterhecherhof@icloud.com",
     "instagram": "https://www.instagram.com/unterhecherhof/"
   },
   "booking": {
@@ -22,25 +22,25 @@
     "goodToKnow": [
       "Check-in: 15:00 - 20:00",
       "Check-out: 08:00 - 10:00",
-      "Kostenlose Privatparkplätze",
+      "Kostenloser Privatparkplatz",
       "Bauernfrühstück inklusive",
       "Kinder sind willkommen",
       "Haustiere nicht erlaubt"
     ]
   },
   "directions": {
-    "fromLienz": "Nehmen Sie die B100 in Richtung Sillian. Nach ca. 3 km biegen Sie rechts ab Richtung Bannberg. Folgen Sie der kurvigen Bergstraße für 4 km bis Sie das Dorf erreichen.",
+    "fromLienz": "Nehmen Sie die B100 in Richtung Sillian. Nach ca. 3 km biegen Sie rechts ab Richtung Bannberg. Folgen Sie der Bergstraße für 4 km bis Sie das Dorf erreichen.",
     "winterDriving": "Winterreifen sind von November bis April Pflicht. Schneeketten werden bei starkem Schneefall empfohlen."
   },
   "hero": {
-    "title": "Authentischer Bauernhofurlaub in Bannberg, Tirol",
+    "title": "Authentischer alpiner Bauernhofurlaub in Bannberg, Tirol",
     "subtitle": "Erleben Sie den Charme eines historischen Bauernhauses im Herzen der Dolomiten.",
     "buttonText": "Jetzt buchen"
   },
   "about": {
-    "tagline": "Unser Erbe",
-    "title": "Familiäre Gastfreundschaft",
-    "description": "Auf 1.200 Metern Höhe in den Lienzer Dolomiten gelegen, bietet der Unterhecherhof einen Platz in der ersten Reihe für das majestätischste Bergtheater der Natur. Hier verblasst das Chaos der modernen Welt in einer tiefen Stille, die nur vom sanften Läuten ferner Kuhglocken und der Bergbrise unterbrochen wird. Erleben Sie die Seele eines 500 Jahre alten Bauernhofs, der sorgfältig renoviert wurde, um historische Tiroler Seele und Charme mit der intimen, herzlichen Gastfreundschaft eines familiengeführten Rückzugsortes zu verbinden. Entspannen Sie sich in modernen, lichtdurchfluteten Räumen, in denen schlankes Design auf die raue Schönheit der Alpen direkt vor Ihrem privaten Balkon trifft. \nDies ist nicht nur ein Aufenthalt; es ist eine seltene Gelegenheit, tief durchzuatmen, neue Energie zu tanken und in den Höhen wirklich nach Hause zu kommen.",
+    "tagline": "Unsere Geschichte",
+    "title": "Familiengeführte Gastfreundschaft",
+    "description": "Der Unterhecherhof liegt 15 Autominuten von der Sonnenstadt Lienz entfernt. Hier können Sie entspannen und den atemberaubenden Blick auf die Lienzer Dolomiten genießen. Im Sommer sind die umliegenden Berge und Wälder ideal zum Wandern und Klettern. Als bekannte Bike-Arena bietet sie zudem unzählige, gut ausgeschilderte Mountainbike-Routen in drei verschiedenen Berggruppen. Mehr als 600 km Radwege durch die Lienzer Dolomiten und den Nationalpark Hohe Tauern. Sie können sogar mit dem Rad nach Südtirol fahren und mit dem Zug zurück! Im Winter verwandelt sich die Region in ein Schneeparadies. Die nahegelegenen Skigebiete bieten perfekte Bedingungen zum Skifahren, Snowboarden und Langlaufen. 20 Autominuten vom entspannten und weniger überlaufenen Skigebiet Zettersfeld entfernt, und für ein größeres Skigebiet sind Sie in nur 30 Minuten in Sillian. Genießen Sie die ruhige, friedliche und fantastische Aussicht im Unterhecherhof – Ihrem Zuhause fernab der Heimat.",
     "highlights": [
       {
         "icon": "History",
@@ -48,22 +48,22 @@
       },
       {
         "icon": "Mountain",
-        "text": "Kommen Sie nach Hause in die Berge"
+        "text": "Kommen Sie heim in die Berge"
       },
       {
         "icon": "Users",
-        "text": "Familiengeführt"
+        "text": "Familiär geführt"
       }
     ]
   },
   "features": {
-    "title": "Warum bei uns übernachten?",
+    "title": "Warum bei uns bleiben?",
     "subtitle": "Authentische Erlebnisse im Herzen der Berge",
     "items": [
       {
         "icon": "Mountain",
         "title": "Bergblick",
-        "description": "Erstaunliche Aussichten, Skipisten und Radwege, um die Natur das ganze Jahr über in ihrer majestätischsten Form zu genießen."
+        "description": "Atemberaubende Aussicht, Skipisten und Radwege, um die majestätische Natur das ganze Jahr über zu genießen."
       },
       {
         "icon": "BellOff",
@@ -73,12 +73,12 @@
       {
         "icon": "Coffee",
         "title": "Bauernfrühstück",
-        "description": "Beginnen Sie Ihren Tag mit frischer, wirklich lokaler Milch, Eiern und hausgemachten Leckereien."
+        "description": "Beginnen Sie Ihren Tag mit frischer, regionaler Milch, Eiern und hausgemachten Leckereien."
       },
       {
         "icon": "HeartHandshake",
         "title": "Gastfreundschaft",
-        "description": "Echte Wärme und persönliche Betreuung von Ihren Gastgebern in einem kleinen B&B."
+        "description": "Echte Wärme und persönliche Betreuung durch Ihre Gastgeber in einer familiären Pension."
       }
     ]
   },
@@ -108,23 +108,23 @@
     },
     "contactModal": {
       "title": "Kontaktieren Sie uns",
-      "subtitle": "Wir würden uns freuen, von Ihnen zu hören. Bei Fragen können Sie sich gerne an uns wenden.",
+      "subtitle": "Wir würden uns freuen, von Ihnen zu hören. Melden Sie sich bei Fragen.",
       "address": "Adresse",
       "viewMap": "Auf Google Maps ansehen",
       "phone": "WhatsApp / Telefon",
       "messageWhatsapp": "Nachricht auf WhatsApp",
       "email": "E-Mail",
       "sendEmail": "E-Mail senden",
-      "directions": "Wegbeschreibung",
+      "directions": "Anfahrt",
       "fromLienz": "Von Lienz:",
       "winterDriving": "Winterfahrten:"
     },
     "footer": {
       "contact": "Kontakt",
-      "quickLinks": "Schnelle Links",
+      "quickLinks": "Schnelllinks",
       "bookStay": "Buchen Sie Ihren Aufenthalt",
-      "whatsappUs": "WhatsApp uns",
-      "directionsInfo": "Wegbeschreibung & Info",
+      "whatsappUs": "Schreiben Sie uns (WhatsApp)",
+      "directionsInfo": "Anfahrt & Info",
       "secureBooking": "Sicheres Buchungssystem",
       "allRightsReserved": "Alle Rechte vorbehalten."
     },

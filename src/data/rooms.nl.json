@@ -1,8 +1,8 @@
 [
   {
     "id": "deluxe-double",
-    "name": "Luxe Tweepersoonskamer",
-    "description": "Deze tweepersoonskamer biedt gratis toiletartikelen en heeft een eigen badkamer met een inloopdouche, een bidet en een haardroger. Deze tweepersoonskamer is voorzien van een thee- en koffiezetapparaat, een flatscreen-tv met streamingdiensten, uitzicht op de tuin en wijn/champagne voor de gasten. De unit heeft 1 bed.",
+    "name": "Deluxe Tweepersoonskamer",
+    "description": "Deze tweepersoonskamer biedt gratis toiletartikelen en heeft een eigen badkamer met een inloopdouche, een bidet en een föhn. De kamer is voorzien van koffie- en tea faciliteiten, een flatscreen-tv met streamingdiensten, uitzicht op de tuin en wijn/champagne voor de gasten. De unit heeft 1 bed.",
     "amenities": [
       {
         "icon": "Wifi",
@@ -18,19 +18,19 @@
   {
     "id": "3-bedroom-apartment",
     "name": "Appartement met 3 Slaapkamers",
-    "description": "Dit ruime appartement beschikt over 1 woonkamer, 3 aparte slaapkamers en 1 badkamer met een inloopdouche en gratis toiletartikelen. In de goed uitgeruste keuken vindt u een kookplaat, een koelkast, een vaatwasser en keukengerei. Het appartement beschikt ook over een barbecue. Dit appartement heeft een wasmachine, een flatscreen-tv met streamingdiensten, uitzicht op de tuin en wijn/champagne voor de gasten. De unit heeft 4 bedden.",
+    "description": "Dit ruime appartement beschikt over 1 woonkamer, 3 aparte slaapkamers en 1 badkamer met een inloopdouche en gratis toiletartikelen. Gasten vinden een kookplaat, een koelkast, een vaatwasser en keukengerei in de goed uitgeruste keuken. Het appartement beschikt ook over een barbecue. Dit appartement heeft een wasmachine, een flatscreen-tv met streamingdiensten, uitzicht op de tuin en wijn/champagne voor gasten. De unit heeft 4 bedden met ruimte voor maximaal 8 gasten.",
     "amenities": [
       {
         "icon": "Users",
-        "text": "Geschikt voor maximaal 6 personen"
+        "text": "Slaapplaats voor maximaal 6 personen"
       },
       {
         "icon": "Sun",
-        "text": "Privébalkon"
+        "text": "Eigen balkon"
       },
       {
         "icon": "Utensils",
-        "text": "Volledige keuken"
+        "text": "Volledig uitgeruste Keuken"
       }
     ],
     "buttonText": "Appartement Boeken"
