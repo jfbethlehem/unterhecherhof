@@ -425,14 +425,26 @@ function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
 function LanguageSelector({ language, setLanguage }: { language: Language, setLanguage: (lang: Language) => void }) {
   const [isOpen, setIsOpen] = useState(false);
 
+  const flagCodes: Record<Language, string> = {
+    en: 'gb',
+    de: 'de',
+    fr: 'fr',
+    it: 'it',
+    nl: 'nl',
+    tl: 'ph'
+  };
+
   return (
     <div className="relative">
       <button 
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
       >
-        <Globe className="h-4 w-4" />
-        <span className="uppercase">{language}</span>
+        <img 
+          src={`https://flagcdn.com/w40/${flagCodes[language]}.png`} 
+          alt={language} 
+          className="h-4 w-auto rounded-[2px]" 
+        />
         <ChevronDown className={`h-3 w-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
       </button>
       
@@ -455,9 +467,10 @@ function LanguageSelector({ language, setLanguage }: { language: Language, setLa
                     setLanguage(lang);
                     setIsOpen(false);
                   }}
-                  className={`w-full text-left px-4 py-2 text-sm transition-colors ${language === lang ? 'text-primary font-bold bg-primary/5' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
+                  className={`w-full flex items-center gap-3 text-left px-4 py-2 text-sm transition-colors ${language === lang ? 'text-primary font-bold bg-primary/5' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
                 >
-                  {languageNames[lang]}
+                  <img src={`https://flagcdn.com/w40/${flagCodes[lang]}.png`} alt={lang} className="h-3 w-auto rounded-[2px]" />
+                  <span>{languageNames[lang]}</span>
                 </button>
               ))}
             </motion.div>
@@ -465,6 +478,63 @@ function LanguageSelector({ language, setLanguage }: { language: Language, setLa
         )}
       </AnimatePresence>
     </div>
+  );
+}
+
+function CookieConsentBanner() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const consent = localStorage.getItem('cookie-consent');
+    if (!consent) {
+      setIsVisible(true);
+    }
+  }, []);
+
+  const handleAccept = () => {
+    localStorage.setItem('cookie-consent', 'accepted');
+    setIsVisible(false);
+  };
+
+  const handleReject = () => {
+    localStorage.setItem('cookie-consent', 'rejected');
+    setIsVisible(false);
+  };
+
+  return (
+    <AnimatePresence>
+      {isVisible && (
+        <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 50, opacity: 0 }}
+          className="fixed bottom-0 left-0 right-0 z-[300] bg-white border-t border-slate-200 shadow-[0_-10px_40px_rgba(0,0,0,0.1)] p-4 md:p-6"
+        >
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex-1">
+              <h3 className="font-bold text-slate-900 mb-1">We use cookies</h3>
+              <p className="text-sm text-slate-600 text-left md:text-left">
+                We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+              </p>
+            </div>
+            <div className="flex items-center gap-3 shrink-0">
+              <button 
+                onClick={handleReject}
+                className="px-4 py-2 text-sm font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-colors"
+              >
+                Decline
+              </button>
+              <button 
+                onClick={handleAccept}
+                className="px-6 py-2 text-sm font-bold text-white bg-primary hover:bg-primary/90 rounded-lg transition-colors shadow-sm"
+              >
+                Accept All
+              </button>
+            </div>
+          </div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }
 
@@ -485,6 +555,7 @@ function MainApp() {
 
   return (
     <div className="min-h-screen">
+      <CookieConsentBanner />
       <ImageModal imageGroup={selectedImageGroup} onClose={() => setSelectedImageGroup(null)} />
       {/* Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 backdrop-blur-md">

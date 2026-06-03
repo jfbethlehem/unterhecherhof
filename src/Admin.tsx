@@ -239,8 +239,36 @@ export default function Admin() {
           <div className="max-w-4xl mx-auto pb-24">
             <div className="p-6 md:p-8 border-b border-slate-200 bg-white sticky top-0 z-10 flex justify-between items-center">
               <div>
-                <h1 className="text-2xl font-bold text-slate-800">Edit {selectedFile}</h1>
-                <p className="text-slate-500 text-sm mt-1">Make changes below and click save.</p>
+                <h1 className="text-2xl font-bold text-slate-800">
+                  {(() => {
+                    const parts = selectedFile.split('.');
+                    if (parts.length >= 3) {
+                      const type = parts[0];
+                      const lang = parts[1];
+                      const flags: Record<string, string> = {
+                        en: 'gb',
+                        de: 'de',
+                        fr: 'fr',
+                        it: 'it',
+                        nl: 'nl',
+                        tl: 'ph'
+                      };
+                      const formattedType = type.charAt(0).toUpperCase() + type.slice(1);
+                      const flagCode = flags[lang];
+                      if (flagCode) {
+                        return (
+                          <div className="flex items-center gap-2">
+                            <span>{formattedType}</span>
+                            <img src={`https://flagcdn.com/w40/${flagCode}.png`} alt={lang} className="h-5 w-auto rounded-sm" />
+                          </div>
+                        );
+                      }
+                      return `${formattedType} ${lang.toUpperCase()}`;
+                    }
+                    return `Edit ${selectedFile}`;
+                  })()}
+                </h1>
+                <p className="text-slate-500 text-sm mt-1">Editing {selectedFile}. Make changes below and click save.</p>
               </div>
             </div>
             
