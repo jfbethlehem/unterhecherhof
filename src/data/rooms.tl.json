@@ -2,7 +2,7 @@
   {
     "id": "deluxe-double",
     "name": "Deluxe Double Room",
-    "description": "Nag-aalok ng libreng toiletries, ang double room na ito ay may kasamang pribadong banyo na may walk-in shower, bidet, at hairdryer. Nagtatampok ang double room na ito ng tea at coffee maker, flat-screen TV na may mga streaming service, mga tanawin ng hardin, pati na rin ang alak/champagne para sa mga bisita. Nag-aalok ang unit ng 1 kama.",
+    "description": "Nagtatampok ng mga libreng toiletry, ang double room na ito ay may pribadong banyo na may walk-in shower, bidet, at hairdryer. Ang double room na ito ay may tea at coffee maker, flat-screen TV na may mga streaming service, view ng hardin, at pati na rin wine/champagne para sa mga bisita. May 1 kama ang unit.",
     "amenities": [
       {
         "icon": "Wifi",
@@ -13,16 +13,16 @@
         "text": "Pribadong banyo"
       }
     ],
-    "buttonText": "Mag-book ng Kuwarto"
+    "buttonText": "Mag-book ng Kwarto"
   },
   {
     "id": "3-bedroom-apartment",
     "name": "3-Bedroom Apartment",
-    "description": "Kasama sa maluwag na apartment na ito ang 1 sala, 3 magkakahiwalay na silid-tulugan at 1 banyo na may walk-in shower at libreng toiletries. Makakahanap ang mga bisita ng stovetop, refrigerator, dishwasher, at kitchenware sa kusinang kumpleto sa gamit. Nagtatampok din ang apartment ng barbecue. Ang apartment na ito ay may washing machine, flat-screen TV na may mga streaming service, mga tanawin ng hardin, pati na rin ang alak/champagne para sa mga bisita. Ang unit ay may 4 na kama.",
+    "description": "Kasama sa maluwag na apartment na ito ang 1 sala, 3 hiwalay na kwarto at 1 banyo na may walk-in shower at mga libreng toiletry. Makakakita ang mga bisita ng stovetop, refrigerator, dishwasher, at kitchenware sa kusinang may kumpletong kagamitan. May barbecue din ang apartment. Ang apartment na ito ay may washing machine, flat-screen TV na may mga streaming service, view ng hardin, at wine/champagne para sa mga bisita. May 4 na kama ang unit at espasyo para sa hanggang 8 bisita.",
     "amenities": [
       {
         "icon": "Users",
-        "text": "Maaaring tulugan ng hanggang 6"
+        "text": "Kasya hanggang 6"
       },
       {
         "icon": "Sun",
@@ -30,7 +30,7 @@
       },
       {
         "icon": "Utensils",
-        "text": "Kumpletong Kusina"
+        "text": "Buong Kusina"
       }
     ],
     "buttonText": "Mag-book ng Apartment"

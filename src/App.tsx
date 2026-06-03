@@ -4,7 +4,7 @@ import {
   HeartHandshake, ArrowRight, Wifi, Sun, Utensils, 
   Star, MapPin, Mail, MessageCircle, CreditCard,
   Instagram, X, Check, Calendar, ChevronLeft, ChevronRight,
-  Globe, ChevronDown
+  Globe, ChevronDown, Car
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import roomsDataEn from './data/rooms.en.json';
@@ -19,7 +19,22 @@ import roomsDataTl from './data/rooms.tl.json';
 import contentDataTl from './data/content.tl.json';
 import roomsDataNl from './data/rooms.nl.json';
 import contentDataNl from './data/content.nl.json';
-import imagesData from './data/images.json';
+const galleryPaths = Object.keys(import.meta.glob('/public/gallery/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}')).map(p => p.replace('/public', ''));
+const doubleroomPaths = Object.keys(import.meta.glob('/public/doubleroom/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}')).map(p => p.replace('/public', ''));
+const apartmentPaths = Object.keys(import.meta.glob('/public/apartment/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}')).map(p => p.replace('/public', ''));
+
+const imagesData = {
+  hero: "/images/hero.jpg",
+  about: [
+    "/images/about-1.jpg",
+    "/images/about-2.jpg"
+  ],
+  gallery: galleryPaths,
+  rooms: {
+    "deluxe-double": doubleroomPaths,
+    "3-bedroom-apartment": apartmentPaths
+  }
+};
 
 const contentDataMap = {
   en: contentDataEn,
@@ -676,6 +691,23 @@ function MainApp() {
               >
                 <p>Your browser does not support iframes.</p>
               </iframe>
+            </div>
+
+            <div className="mt-12 rounded-2xl bg-white/10 p-8 backdrop-blur-sm border border-white/20">
+              <div className="flex items-center gap-3 mb-6">
+                <Car className="text-white h-8 w-8" />
+                <h3 className="font-bold text-2xl text-white font-sans">{contentData.ui.contactModal.directions}</h3>
+              </div>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-bold text-white mb-2">{contentData.ui.contactModal.fromLienz}</h4>
+                  <p className="text-white/80">{contentData.directions.fromLienz}</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-white mb-2">{contentData.ui.contactModal.winterDriving}</h4>
+                  <p className="text-white/80">{contentData.directions.winterDriving}</p>
+                </div>
+              </div>
             </div>
 
             {imagesData.gallery && imagesData.gallery.length > 0 && (

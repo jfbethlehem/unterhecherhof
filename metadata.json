@@ -1,5 +1,6 @@
 {
   "name": "Unterhecherhof B&B",
-  "description": "A single-page website for the Unterhecherhof B&B in Tyrol, featuring booking and contact modals.",
-  "requestFramePermissions": []
+  "description": "Experience the heart of Tyrol. Our family-run B&B offers an authentic farm stay experience with modern amenities and stunning views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
