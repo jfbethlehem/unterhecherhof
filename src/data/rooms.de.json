@@ -2,31 +2,31 @@
   {
     "id": "deluxe-double",
     "name": "Deluxe Doppelzimmer",
-    "description": "Dieses Doppelzimmer bietet kostenfreie Pflegeprodukte und verfügt über ein eigenes Bad mit ebenerdiger Dusche, Bidet und Haartrockner. Zudem bietet das Zimmer Tee- und Kaffeezubehör, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit verfügt über 1 Bett.",
+    "description": "Dieses Doppelzimmer bietet kostenlose Pflegeprodukte und ein eigenes Bad mit ebenerdiger Dusche, Bidet und Haartrockner. Das Doppelzimmer verfügt über eine Tee- und Kaffeemaschine, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit bietet 1 Bett.",
     "amenities": [
       {
         "icon": "Wifi",
-        "text": "Kostenfreies Highspeed-WLAN"
+        "text": "Kostenloses Highspeed-WLAN"
       },
       {
         "icon": "Bathroom",
-        "text": "Eigenes Bad"
+        "text": "Eigenes Badezimmer"
       }
     ],
     "buttonText": "Zimmer buchen"
   },
   {
     "id": "3-bedroom-apartment",
-    "name": "Apartment mit 3 Schlafzimmern",
-    "description": "Dieses geräumige Apartment umfasst 1 Wohnzimmer, 3 separate Schlafzimmer und 1 Badezimmer mit einer ebenerdigen Dusche und kostenfreien Pflegeprodukten. In der gut ausgestatteten Küche finden Sie ein Kochfeld, einen Kühlschrank, einen Geschirrspüler und Küchenutensilien. Zudem bietet das Apartment einen Grill, eine Waschmaschine, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit verfügt über 4 Betten und bietet Platz für bis zu 8 Menchen.",
+    "name": "3-Schlafzimmer-Apartment",
+    "description": "Dieses geräumige Apartment umfasst 1 Wohnzimmer, 3 separate Schlafzimmer und 1 Badezimmer mit ebenerdiger Dusche und kostenlosen Pflegeprodukten. In der gut ausgestatteten Küche finden die Gäste ein Kochfeld, einen Kühlschrank, einen Geschirrspüler und Küchenutensilien. Das Apartment verfügt auch über einen Grill. Dieses Apartment bietet eine Waschmaschine, einen Flachbild-TV mit Streaming-Diensten, Gartenblick sowie Wein/Champagner für die Gäste. Die Einheit hat 4 Betten.",
     "amenities": [
       {
         "icon": "Users",
-        "text": "Schlafmöglichkeiten für bis zu 6 Personen"
+        "text": "Schlafplätze für bis zu 6"
       },
       {
         "icon": "Sun",
-        "text": "Eigener Balkon"
+        "text": "Privater Balkon"
       },
       {
         "icon": "Utensils",

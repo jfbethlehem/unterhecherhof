@@ -1,19 +1,19 @@
 {
   "site": {
     "name": "Unterhecherhof",
-    "description": "Scopri il cuore del Tirolo. Il nostro B&B a conduzione familiare offre un'autentica esperienza di soggiorno in fattoria con comfort moderni e viste mozzafiato."
+    "description": "Vivi il cuore del Tirolo. Il nostro B&B a conduzione familiare offre un'autentica esperienza di soggiorno in fattoria con comfort moderni e viste mozzafiato."
   },
   "contact": {
     "address": {
       "street": "Bannberg 48",
-      "city": "9911 Assling",
+      "city": "9911 Bannberg",
       "country": "Austria",
       "footerAddress": "Bannberg 48\n9911 Bannberg\nTirolo Orientale, Austria",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
-    "phone": "+43 664 3434 125",
+    "phone": "+43 632 29 61 77",
     "whatsappLink": "https://wa.me/43632296177",
-    "email": "unterhecherhof@icloud.com",
+    "email": "info@unterhecherhof.at",
     "instagram": "https://www.instagram.com/unterhecherhof/"
   },
   "booking": {
@@ -29,18 +29,18 @@
     ]
   },
   "directions": {
-    "fromLienz": "Prendere la B100 in direzione ovest verso Sillian. Dopo circa 3 km, svoltare a destra verso Bannberg. Seguire la tortuosa strada di montagna per 4 km fino a raggiungere il villaggio.",
-    "winterDriving": "I pneumatici invernali sono obbligatori da novembre ad aprile. Le catene da neve sono raccomandate in caso di forti nevicate."
+    "fromLienz": "Prendi la B100 verso ovest in direzione di Sillian. Dopo circa 3 km, gira a destra verso Bannberg. Segui la tortuosa strada di montagna per 4 km fino a raggiungere il villaggio.",
+    "winterDriving": "Gli pneumatici invernali sono obbligatori da novembre ad aprile. Le catene da neve sono raccomandate in caso di forti nevicate."
   },
   "hero": {
-    "title": "Autentico Soggiorno in Agriturismo a Bannberg, Tirolo",
-    "subtitle": "Vivi il fascino di un maso storico immerso nel cuore delle Dolomiti.",
+    "title": "Autentico Soggiorno in Fattoria Alpina a Bannberg, Tirolo",
+    "subtitle": "Vivi il fascino di una storica casa colonica immersa nel cuore delle Dolomiti.",
     "buttonText": "Prenota Ora"
   },
   "about": {
-    "tagline": "La Nostra Tradizione",
+    "tagline": "La Nostra Eredità",
     "title": "Ospitalità a Conduzione Familiare",
-    "description": "Unterhecherhof si trova a 15 minuti di auto dalla soleggiata città di Lienz. Qui potrete rilassarvi e godervi la vista mozzafiato sulle Dolomiti di Lienz. In estate, le montagne e le foreste circostanti sono l'ideale per escursioni e arrampicate. Naturalmente, essendo famosa come area ciclistica, offre un'infinità di percorsi per mountain bike ben segnalati in tre diversi gruppi montuosi. Oltre 600 km di piste ciclabili attraverso le Dolomiti di Lienz e il Parco Nazionale Alti Tauri. Potete persino arrivare in Alto Adige in bicicletta e tornare in treno! In inverno la regione si trasforma in un paradiso della neve. Le vicine stazioni sciistiche offrono condizioni perfette per sci, snowboard e sci di fondo. A 20 minuti di auto da un'area sciistica più tranquilla e meno affollata, Zettersfeld, e se desiderate un comprensorio sciistico più grande, siamo a soli 30 minuti da Sillian. Godetevi la tranquillità, la pace e la fantastica vista panoramica all'Unterhecherhof, la vostra casa lontano da casa.",
+    "description": "Arroccato a 1.200 metri di altezza nelle Dolomiti di Lienz, l'Unterhecherhof offre un posto in prima fila per il teatro di montagna più maestoso della natura. Qui, il caos del mondo moderno svanisce in un silenzio profondo, rotto solo dal dolce rintocco dei campanacci lontani e dalla brezza di montagna. Vivi l'anima di una fattoria di 500 anni, accuratamente ristrutturata per fondere l'anima e il fascino storico tirolese con l'ospitalità intima e calorosa di un rifugio a conduzione familiare. Rilassati in spazi moderni e luminosi dove il design elegante incontra la bellezza aspra delle Alpi appena fuori dal tuo balcone privato.\nQuesto non è solo un soggiorno; è una rara occasione per respirare profondamente, ricaricarsi e tornare veramente a casa in alta quota.",
     "highlights": [
       {
         "icon": "History",
@@ -48,22 +48,22 @@
       },
       {
         "icon": "Mountain",
-        "text": "Sentiti a casa tra le montagne"
+        "text": "Torna a casa in montagna"
       },
       {
         "icon": "Users",
-        "text": "Gestione Familiare"
+        "text": "Ospitato dalla Famiglia"
       }
     ]
   },
   "features": {
-    "title": "Perché Sceglierci?",
+    "title": "Perché Soggiornare da Noi?",
     "subtitle": "Esperienze autentiche nel cuore delle montagne",
     "items": [
       {
         "icon": "Mountain",
         "title": "Vista sulle Montagne",
-        "description": "Viste mozzafiato, piste da sci e percorsi ciclabili per godersi la natura alla sua massima espressione tutto l'anno."
+        "description": "Viste incredibili, piste da sci e piste ciclabili per godersi la natura al suo massimo splendore tutto l'anno."
       },
       {
         "icon": "BellOff",
@@ -73,17 +73,17 @@
       {
         "icon": "Coffee",
         "title": "Colazione Contadina",
-        "description": "Inizia la tua giornata con latte fresco locale, uova e prelibatezze fatte in casa."
+        "description": "Inizia la giornata con latte fresco veramente locale, uova e prelibatezze fatte in casa."
       },
       {
         "icon": "HeartHandshake",
         "title": "Ospitalità",
-        "description": "Calore genuino e cura personale dai tuoi padroni di casa in un B&B intimo."
+        "description": "Calore genuino e cura personale dai tuoi host in un piccolo B&B."
       }
     ]
   },
   "roomsSection": {
-    "title": "I Nostri Alloggi",
+    "title": "Le Nostre Sistemazioni",
     "subtitle": "Spazi accoglienti progettati per il tuo comfort",
     "buttonText": "Verifica Disponibilità"
   },
@@ -102,22 +102,22 @@
     "bookingModal": {
       "title": "Prenota il Tuo Soggiorno",
       "subtitle": "Seleziona la tua piattaforma di prenotazione preferita o contattaci direttamente.",
-      "instantConfirmation": "Conferma immediata",
-      "bestPrice": "Miglior prezzo garantito",
+      "instantConfirmation": "Conferma istantanea",
+      "bestPrice": "Garanzia del miglior prezzo",
       "goodToKnow": "Buono a sapersi"
     },
     "contactModal": {
       "title": "Contattaci",
-      "subtitle": "Ci farebbe piacere sentirti. Contattaci per qualsiasi domanda.",
+      "subtitle": "Ci piacerebbe sentirti. Contattaci per qualsiasi domanda.",
       "address": "Indirizzo",
-      "viewMap": "Vedi su Google Maps",
+      "viewMap": "Visualizza su Google Maps",
       "phone": "WhatsApp / Telefono",
-      "messageWhatsapp": "Invia messaggio su WhatsApp",
-      "email": "Email",
-      "sendEmail": "Invia un'email",
+      "messageWhatsapp": "Messaggio su WhatsApp",
+      "email": "E-mail",
+      "sendEmail": "Invia un'e-mail",
       "directions": "Indicazioni",
       "fromLienz": "Da Lienz:",
-      "winterDriving": "Guida in inverno:"
+      "winterDriving": "Guida invernale:"
     },
     "footer": {
       "contact": "Contattaci",

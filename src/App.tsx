@@ -678,20 +678,6 @@ function MainApp() {
               </iframe>
             </div>
 
-            <div className="mt-12 rounded-2xl bg-white/10 p-8 backdrop-blur-sm border border-white/20">
-              <h3 className="mb-6 font-bold text-2xl text-white font-sans">{contentData.ui.contactModal.directions}</h3>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h4 className="font-bold text-white mb-2">{contentData.ui.contactModal.fromLienz}</h4>
-                  <p className="text-white/80">{contentData.directions.fromLienz}</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-white mb-2">{contentData.ui.contactModal.winterDriving}</h4>
-                  <p className="text-white/80">{contentData.directions.winterDriving}</p>
-                </div>
-              </div>
-            </div>
-
             {imagesData.gallery && imagesData.gallery.length > 0 && (
               <div className="mt-16">
                 <div className="text-center mb-12">

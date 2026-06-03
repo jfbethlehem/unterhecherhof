@@ -1,27 +1,27 @@
 {
   "site": {
     "name": "Unterhecherhof",
-    "description": "Ervaar het hart van Tirol. Onze door een familie gerunde B&B biedt een authentieke boerderij-ervaring met moderne voorzieningen en een prachtig uitzicht."
+    "description": "Ervaar het hart van Tirol. Onze door een familie beheerde B&B biedt een authentieke boerderijervaring met moderne voorzieningen en een prachtig uitzicht."
   },
   "contact": {
     "address": {
       "street": "Bannberg 48",
-      "city": "9911 Assling",
+      "city": "9911 Bannberg",
       "country": "Oostenrijk",
       "footerAddress": "Bannberg 48\n9911 Bannberg\nOost-Tirol, Oostenrijk",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
-    "phone": "+43 664 3434 125",
+    "phone": "+43 632 29 61 77",
     "whatsappLink": "https://wa.me/43632296177",
-    "email": "unterhecherhof@icloud.com",
+    "email": "info@unterhecherhof.at",
     "instagram": "https://www.instagram.com/unterhecherhof/"
   },
   "booking": {
     "bookingDotCom": "https://www.booking.com/Share-XDB7j4",
     "agoda": "https://www.agoda.com/unterhecherhof/hotel/penzendorf-at.html?cid=1844104",
     "goodToKnow": [
-      "Check-in: 15:00 - 20:00",
-      "Check-out: 08:00 - 10:00",
+      "Inchecken: 15:00 - 20:00",
+      "Uitchecken: 08:00 - 10:00",
       "Gratis privéparkeergelegenheid",
       "Boerenontbijt inbegrepen",
       "Kinderen zijn welkom",
@@ -29,18 +29,18 @@
     ]
   },
   "directions": {
-    "fromLienz": "Neem de B100 in westelijke richting naar Sillian. Sla na ongeveer 3 km rechtsaf richting Bannberg. Volg de kronkelende bergweg gedurende 4 km tot u het dorp bereikt.",
+    "fromLienz": "Neem de B100 in westelijke richting naar Sillian. Sla na ongeveer 3 km rechtsaf richting Bannberg. Volg de kronkelende bergweg 4 km tot u het dorp bereikt.",
     "winterDriving": "Winterbanden zijn verplicht van november tot april. Sneeuwkettingen worden aanbevolen bij zware sneeuwval."
   },
   "hero": {
-    "title": "Authentiek verblijf op een Alpenboerderij in Bannberg, Tirol",
+    "title": "Authentieke boerderijvakantie in de Alpen in Bannberg, Tirol",
     "subtitle": "Ervaar de charme van een historische boerderij in het hart van de Dolomieten.",
     "buttonText": "Nu boeken"
   },
   "about": {
     "tagline": "Ons Erfgoed",
-    "title": "Door familie gerunde gastvrijheid",
-    "description": "Unterhecherhof ligt op 15 minuten rijden van de zonnige stad Lienz. Hier kunt u ontspannen en genieten van het adembenemende uitzicht op de Lienz Dolomieten. In de zomer zijn de omliggende bergen en bossen ideaal om te wandelen en klimmen. Als bekende fietsarena biedt het talloze, goed bewegwijzerde mountainbikeroutes in drie verschillende berggroepen. Meer dan 600 km aan fietsroutes door de Lienz Dolomieten en het Nationaal Park Hohe Tauern. U kunt zelfs met de fiets naar Zuid-Tirol en met de trein terug! In de winter verandert de regio in een sneeuwparadijs. De nabijgelegen skigebieden bieden perfecte omstandigheden om te skiën, snowboarden en langlaufen. 20 minuten rijden naar het rustigere skigebied Zettersfeld en voor een groter skigebied bent u in slechts 30 minuten in Sillian. Geniet van de rustige, vredige en fantastische panoramische uitzichten in Unterhecherhof, uw thuis ver van huis.",
+    "title": "Familiale Gastvrijheid",
+    "description": "Hoog gelegen op 1.200 meter in de Lienz Dolomieten, biedt de Unterhecherhof een eersterangs plek voor het meest majestueuze bergtheater van de natuur. Hier vervaagt de chaos van de moderne wereld in een diepe stilte, alleen doorbroken door het zachte geluid van verre koeienbellen en de bergwind. Ervaar de ziel van een 500 jaar oude boerderij, zorgvuldig gerenoveerd om de historische ziel en charme van Tirol te combineren met de intieme, warme gastvrijheid van een toevluchtsoord voor het hele gezin. Ontspan in moderne, lichte ruimtes waar strak design de ruige schoonheid van de Alpen direct buiten uw privébalkon ontmoet.\nDit is niet zomaar een verblijf; het is een zeldzame kans om diep adem te halen, op te laden en echt thuis te komen op grote hoogte.",
     "highlights": [
       {
         "icon": "History",
@@ -52,7 +52,7 @@
       },
       {
         "icon": "Users",
-        "text": "Door familie gerund"
+        "text": "Door een familie beheerd"
       }
     ]
   },
@@ -62,30 +62,30 @@
     "items": [
       {
         "icon": "Mountain",
-        "title": "Uitzicht op de Bergen",
-        "description": "Geweldige uitzichten, skipistes en fietspaden om het hele jaar door te genieten van de prachtige natuur."
+        "title": "Uitzicht op de bergen",
+        "description": "Ongelooflijke uitzichten, skipistes en fietspaden om het hele jaar door te genieten van de natuur op haar best."
       },
       {
         "icon": "BellOff",
-        "title": "Rustig Dorp",
-        "description": "Vind absolute rust in de vredige en schone sfeer van Bannberg."
+        "title": "Vreedzaam dorp",
+        "description": "Vind absolute rust in de rustige, schone lucht van Bannberg."
       },
       {
         "icon": "Coffee",
         "title": "Boerenontbijt",
-        "description": "Begin de dag met verse, lokale melk, eieren en zelfgemaakte lekkernijen."
+        "description": "Begin uw dag met echt lokale verse melk, eieren en zelfgemaakte lekkernijen."
       },
       {
         "icon": "HeartHandshake",
         "title": "Gastvrijheid",
-        "description": "Oprechte warmte en persoonlijke aandacht van uw gastheer en gastvrouw in een intieme B&B."
+        "description": "Oprechte warmte en persoonlijke zorg van uw gastheren in een kleine B&B."
       }
     ]
   },
   "roomsSection": {
     "title": "Onze Accommodaties",
     "subtitle": "Gezellige ruimtes ontworpen voor uw comfort",
-    "buttonText": "Beschikbaarheid Bekijken"
+    "buttonText": "Beschikbaarheid Controleren"
   },
   "gallery": {
     "title": "Galerij",
@@ -97,18 +97,18 @@
       "about": "Over ons",
       "experience": "Ervaring",
       "contact": "Contact",
-      "bookNow": "Nu Boeken"
+      "bookNow": "Nu boeken"
     },
     "bookingModal": {
       "title": "Boek uw verblijf",
-      "subtitle": "Kies uw favoriete boekingsplatform of neem direct contact met ons op.",
+      "subtitle": "Kies uw favoriete boekingsplatform of neem rechtstreeks contact met ons op.",
       "instantConfirmation": "Directe bevestiging",
       "bestPrice": "Beste prijsgarantie",
       "goodToKnow": "Goed om te weten"
     },
     "contactModal": {
-      "title": "Neem Contact Op",
-      "subtitle": "We horen graag van u. Neem gerust contact op bij vragen.",
+      "title": "Neem contact met ons op",
+      "subtitle": "We horen graag van u. Neem contact op als u vragen heeft.",
       "address": "Adres",
       "viewMap": "Bekijk op Google Maps",
       "phone": "WhatsApp / Telefoon",
@@ -116,16 +116,16 @@
       "email": "E-mail",
       "sendEmail": "Stuur een e-mail",
       "directions": "Routebeschrijving",
-      "fromLienz": "Vanaf Lienz:",
-      "winterDriving": "In de winter:"
+      "fromLienz": "Vanuit Lienz:",
+      "winterDriving": "Rijden in de winter:"
     },
     "footer": {
-      "contact": "Neem Contact Op",
-      "quickLinks": "Snelle Links",
-      "bookStay": "Boek Uw Verblijf",
-      "whatsappUs": "WhatsApp Ons",
+      "contact": "Neem contact met ons op",
+      "quickLinks": "Snelle links",
+      "bookStay": "Boek uw verblijf",
+      "whatsappUs": "WhatsApp ons",
       "directionsInfo": "Routebeschrijving & Info",
-      "secureBooking": "Veilig Boekingssysteem",
+      "secureBooking": "Veilig boekingssysteem",
       "allRightsReserved": "Alle rechten voorbehouden."
     },
     "map": {

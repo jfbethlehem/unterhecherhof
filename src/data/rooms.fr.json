@@ -1,7 +1,7 @@
 [
   {
     "id": "deluxe-double",
-    "name": "Chambre Double Deluxe",
+    "name": "Chambre Double de Luxe",
     "description": "Offrant des articles de toilette gratuits, cette chambre double comprend une salle de bains privative avec douche à l'italienne, bidet et sèche-cheveux. Cette chambre double dispose d'un plateau/bouilloire, d'une télévision à écran plat avec services de streaming, d'une vue sur le jardin, ainsi que de vin/champagne pour les clients. Le logement comprend 1 lit.",
     "amenities": [
       {
@@ -18,7 +18,7 @@
   {
     "id": "3-bedroom-apartment",
     "name": "Appartement 3 Chambres",
-    "description": "Cet appartement spacieux comprend 1 salon, 3 chambres séparées et 1 salle de bains avec douche à l'italienne et articles de toilette gratuits. Les clients trouveront des plaques de cuisson, un réfrigérateur, un lave-vaisselle et des ustensiles de cuisine dans la cuisine bien équipée. L'appartement dispose également d'un barbecue. Cet appartement possède un lave-linge, une télévision à écran plat avec services de streaming, une vue sur le jardin, ainsi que du vin/champagne pour les clients. Le logement possède 4 lits et peut accueillir jusqu'à 8 personnes.",
+    "description": "Ce spacieux appartement comprend 1 salon, 3 chambres séparées et 1 salle de bains avec douche à l'italienne et articles de toilette gratuits. Les clients trouveront des plaques de cuisson, un réfrigérateur, un lave-vaisselle et des ustensiles de cuisine dans la cuisine bien équipée. L'appartement dispose également d'un barbecue. Cet appartement dispose d'un lave-linge, d'une télévision à écran plat avec services de streaming, d'une vue sur le jardin, ainsi que de vin/champagne pour les clients. Le logement comprend 4 lits.",
     "amenities": [
       {
         "icon": "Users",
@@ -30,7 +30,7 @@
       },
       {
         "icon": "Utensils",
-        "text": "Cuisine équipée"
+        "text": "Cuisine complète"
       }
     ],
     "buttonText": "Réserver l'Appartement"

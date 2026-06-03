@@ -1,19 +1,19 @@
 {
   "site": {
     "name": "Unterhecherhof",
-    "description": "Découvrez le cœur du Tyrol. Notre chambre d'hôtes familiale propose un séjour à la ferme authentique avec des équipements modernes et une vue imprenable."
+    "description": "Découvrez le cœur du Tyrol. Notre chambre d'hôtes familiale offre une expérience authentique de séjour à la ferme avec des équipements modernes et des vues imprenables."
   },
   "contact": {
     "address": {
       "street": "Bannberg 48",
-      "city": "9911 Assling",
+      "city": "9911 Bannberg",
       "country": "Autriche",
       "footerAddress": "Bannberg 48\n9911 Bannberg\nTyrol oriental, Autriche",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
-    "phone": "+43 664 3434 125",
+    "phone": "+43 632 29 61 77",
     "whatsappLink": "https://wa.me/43632296177",
-    "email": "unterhecherhof@icloud.com",
+    "email": "info@unterhecherhof.at",
     "instagram": "https://www.instagram.com/unterhecherhof/"
   },
   "booking": {
@@ -34,13 +34,13 @@
   },
   "hero": {
     "title": "Séjour Authentique à la Ferme Alpine à Bannberg, Tyrol",
-    "subtitle": "Découvrez le charme d'une ferme historique au cœur des Dolomites.",
+    "subtitle": "Découvrez le charme d'une ferme historique nichée au cœur des Dolomites.",
     "buttonText": "Réserver"
   },
   "about": {
     "tagline": "Notre Héritage",
     "title": "Hospitalité Familiale",
-    "description": "L'Unterhecherhof est situé à 15 minutes en voiture de la ville ensoleillée de Lienz. Ici, vous pouvez vous détendre et profiter de la vue imprenable sur les Dolomites de Lienz. En été, les montagnes et les forêts environnantes sont idéales pour la randonnée et l'escalade. Bien sûr, étant connu comme une arène de vélo, il offre d'innombrables itinéraires de VTT bien balisés dans trois massifs montagneux différents. Plus de 600 km de pistes cyclables traversent les Dolomites de Lienz et le parc national des Hohe Tauern. Vous pouvez même faire du vélo jusqu'au Tyrol du Sud et revenir en train ! En hiver, la région se transforme en paradis blanc. Les stations de ski voisines offrent des conditions parfaites pour le ski, le snowboard et le ski de fond. À 20 minutes en voiture de la station de ski relax et moins fréquentée de Zettersfeld, et si vous souhaitez un domaine plus vaste, nous sommes à seulement 30 minutes de Sillian. Profitez de la vue panoramique calme, paisible et incroyable à l'Unterhecherhof, votre chez-vous loin de chez vous.",
+    "description": "Perché à 1 200 mètres d'altitude dans les Dolomites de Lienz, l'Unterhecherhof offre une place de choix au théâtre de montagne le plus majestueux de la nature. Ici, le chaos du monde moderne s'estompe dans un silence profond, rompu seulement par le doux carillon des cloches de vaches lointaines et la brise de montagne. Découvrez l'âme d'une ferme vieille de 500 ans, soigneusement rénovée pour allier l'âme et le charme historiques du Tyrol à l'hospitalité intime et chaleureuse d'une retraite familiale. Détendez-vous dans des espaces modernes et lumineux où le design épuré rencontre la beauté sauvage des Alpes juste à l'extérieur de votre balcon privé.\nCe n'est pas juste un séjour ; c'est une occasion rare de respirer profondément, de se ressourcer et de vraiment rentrer chez soi sur les hauteurs.",
     "highlights": [
       {
         "icon": "History",
@@ -48,37 +48,37 @@
       },
       {
         "icon": "Mountain",
-        "text": "Sentez-vous chez vous dans les montagnes"
+        "text": "Rentrez chez vous dans les montagnes"
       },
       {
         "icon": "Users",
-        "text": "Géré en famille"
+        "text": "Hébergement familial"
       }
     ]
   },
   "features": {
-    "title": "Pourquoi séjourner chez nous ?",
+    "title": "Pourquoi Séjourner Chez Nous ?",
     "subtitle": "Des expériences authentiques au cœur des montagnes",
     "items": [
       {
         "icon": "Mountain",
-        "title": "Vue sur les Montagnes",
-        "description": "Des vues incroyables, des pistes de ski et des pistes cyclables pour profiter de la nature à son apogée toute l'année."
+        "title": "Vues sur la Montagne",
+        "description": "Des vues incroyables, des pistes de ski et des pistes cyclables pour profiter de la nature la plus majestueuse tout au long de l'année."
       },
       {
         "icon": "BellOff",
-        "title": "Village Calme",
-        "description": "Trouvez une paix absolue dans l'atmosphère tranquille et propre de Bannberg."
+        "title": "Village Paisible",
+        "description": "Trouvez une paix absolue dans l'atmosphère tranquille et pure de Bannberg."
       },
       {
         "icon": "Coffee",
-        "title": "Petit-déjeuner de la ferme",
-        "description": "Commencez votre journée avec du lait frais local, des œufs et des friandises faites maison."
+        "title": "Petit-déjeuner de la Ferme",
+        "description": "Commencez votre journée avec du lait frais vraiment local, des œufs et des friandises faites maison."
       },
       {
         "icon": "HeartHandshake",
         "title": "Hospitalité",
-        "description": "Chaleur sincère et soins personnels de vos hôtes dans un B&B familial."
+        "description": "Chaleur authentique et soins personnels de vos hôtes dans un petit B&B."
       }
     ]
   },
@@ -89,41 +89,41 @@
   },
   "gallery": {
     "title": "Galerie",
-    "subtitle": "Un aperçu de notre magnifique environnement"
+    "subtitle": "Un aperçu de nos magnifiques environs"
   },
   "ui": {
     "nav": {
       "rooms": "Chambres",
-      "about": "À Propos",
+      "about": "À propos",
       "experience": "Expérience",
       "contact": "Contact",
       "bookNow": "Réserver"
     },
     "bookingModal": {
       "title": "Réservez Votre Séjour",
-      "subtitle": "Choisissez votre plateforme de réservation préférée ou contactez-nous directement.",
-      "instantConfirmation": "Confirmation immédiate",
-      "bestPrice": "Meilleur prix garanti",
+      "subtitle": "Sélectionnez votre plateforme de réservation préférée ou contactez-nous directement.",
+      "instantConfirmation": "Confirmation instantanée",
+      "bestPrice": "Garantie du meilleur prix",
       "goodToKnow": "Bon à savoir"
     },
     "contactModal": {
-      "title": "Nous Contacter",
+      "title": "Contactez-nous",
       "subtitle": "Nous serions ravis d'avoir de vos nouvelles. Contactez-nous pour toute question.",
       "address": "Adresse",
       "viewMap": "Voir sur Google Maps",
       "phone": "WhatsApp / Téléphone",
-      "messageWhatsapp": "Envoyer un message sur WhatsApp",
+      "messageWhatsapp": "Message sur WhatsApp",
       "email": "E-mail",
       "sendEmail": "Envoyer un e-mail",
       "directions": "Itinéraire",
-      "fromLienz": "Depuis Lienz :",
+      "fromLienz": "De Lienz :",
       "winterDriving": "Conduite en hiver :"
     },
     "footer": {
-      "contact": "Contact",
+      "contact": "Contactez-nous",
       "quickLinks": "Liens Rapides",
       "bookStay": "Réservez Votre Séjour",
-      "whatsappUs": "Nous contacter sur WhatsApp",
+      "whatsappUs": "Contactez-nous sur WhatsApp",
       "directionsInfo": "Itinéraire & Infos",
       "secureBooking": "Système de Réservation Sécurisé",
       "allRightsReserved": "Tous droits réservés."

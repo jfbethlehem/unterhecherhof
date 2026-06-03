@@ -1,19 +1,19 @@
 {
   "site": {
     "name": "Unterhecherhof",
-    "description": "Damhin ang puso ng Tyrol. Ang aming B&B na pinamamahalaan ng pamilya ay nag-aalok ng tunay na karanasan sa pamamalagi sa bukid na may mga modernong pasilidad at nakamamanghang tanawin."
+    "description": "Damhin ang puso ng Tyrol. Ang aming pampamilyang B&B ay nag-aalok ng tunay na karanasan sa pagtuloy sa bukid na may mga modernong pasilidad at nakamamanghang tanawin."
   },
   "contact": {
     "address": {
       "street": "Bannberg 48",
-      "city": "9911 Assling",
+      "city": "9911 Bannberg",
       "country": "Austria",
       "footerAddress": "Bannberg 48\n9911 Bannberg\nEast Tyrol, Austria",
       "mapLink": "https://maps.app.goo.gl/yrafsNPso69HArwf9?g_st=ic"
     },
-    "phone": "+43 664 3434 125",
+    "phone": "+43 632 29 61 77",
     "whatsappLink": "https://wa.me/43632296177",
-    "email": "unterhecherhof@icloud.com",
+    "email": "info@unterhecherhof.at",
     "instagram": "https://www.instagram.com/unterhecherhof/"
   },
   "booking": {
@@ -23,14 +23,14 @@
       "Check-in: 15:00 - 20:00",
       "Check-out: 08:00 - 10:00",
       "Libreng pribadong paradahan",
-      "Kasama ang pambukid na almusal",
+      "Kasama ang almusal mula sa bukid",
       "Tinatanggap ang mga bata",
       "Hindi pinapayagan ang mga alagang hayop"
     ]
   },
   "directions": {
-    "fromLienz": "Dalhin ang B100 pakanluran papunta sa Sillian. Pagkatapos ng humigit-kumulang 3km, kumanan papunta sa Bannberg. Sundan ang paikot-ikot na kalsada sa bundok sa loob ng 4km hanggang sa marating mo ang nayon.",
-    "winterDriving": "Mandatory ang mga gulong pang-taglamig mula Nobyembre hanggang Abril. Inirerekomenda ang mga kadena ng niyebe sa panahon ng malakas na pag-ulan ng niyebe."
+    "fromLienz": "Dumaan sa B100 pakanluran patungong Sillian. Pagkalipas ng humigit-kumulang 3km, kumanan patungong Bannberg. Sundan ang paliko-likong kalsada sa bundok ng 4km hanggang sa marating mo ang nayon.",
+    "winterDriving": "Sapilitan ang mga gulong pang-taglamig mula Nobyembre hanggang Abril. Inirerekomenda ang mga kadena sa niyebe sa panahon ng malakas na pag-ulan ng niyebe."
   },
   "hero": {
     "title": "Tunay na Alpine Farm Stay sa Bannberg, Tyrol",
@@ -39,8 +39,8 @@
   },
   "about": {
     "tagline": "Ang Aming Pamana",
-    "title": "Pagkamapagpatuloy na Pinamamahalaan ng Pamilya",
-    "description": "Matatagpuan ang Unterhecherhof sa 15 minutong biyahe ng kotse mula sa maaraw na lungsod ng Lienz. Dito maaari kang magpahinga at tamasahin ang nakamamanghang tanawin ng Lienzer Dolomites. Sa tag-araw, ang mga nakapaligid na bundok at kagubatan ay mainam para sa hiking at akyat-bundok. Siyempre, kilala bilang isang arena sa pagbibisikleta na nag-aalok ito ng hindi mabilang, at may magandang signpost na mga ruta ng mountain bike sa tatlong magkakaibang grupo ng bundok. Higit sa 600 km ng ruta ng bisikleta sa pamamagitan ng Lienz Dolomites at ng Hohe Tauern National Park. Maaari ka ring sumakay ng bisikleta papuntang South Tyrol at pabalik sa pamamagitan ng tren! Sa taglamig ang rehiyon ay magiging isang paraiso ng niyebe. Ang mga kalapit na ski resort ay nagbibigay ng perpektong kondisyon para sa skiing, snowboarding at cross-country skiing. 20 minutong biyahe patungo sa medyo walang gaanong taong relax na ski resort Zettersfeld at kung gusto mo ng mas malaking lugar na pag-iiskiyan ay 30 minuto lang kami mula sa Silian. Tangkilikin ang tahimik, payapa, at kamangha-manghang panoramang tanawin sa Unterhecherhof, ang iyong tahanan malayo sa bahay.",
+    "title": "Pampamilyang Mabuting Pagtanggap",
+    "description": "Nakatayo ng 1,200 metro ang taas sa Lienz Dolomites, ang Unterhecherhof ay nag-aalok ng upuan sa unahan para sa pinakamaringal na teatro sa bundok ng kalikasan. Dito, ang kaguluhan ng modernong mundo ay naglalaho sa isang malalim na katahimikan, na binabasag lamang ng malambot na tunog ng malalayong kampana ng baka at simoy ng bundok. Damhin ang kaluluwa ng isang 500-taong-gulang na bukid, na maingat na inayos upang paghaluin ang makasaysayang kaluluwa at alindog ng Tyrolean sa matalik at mainit na pagtanggap ng isang pampamilyang pahingahan. Magpahinga sa mga moderno at maliwanag na espasyo kung saan ang makinis na disenyo ay nakakatugon sa masungit na kagandahan ng Alps sa labas mismo ng iyong pribadong balkonahe.\nIto ay hindi lamang isang pagtuloy; ito ay isang pambihirang pagkakataon upang huminga nang malalim, mag-recharge, at tunay na umuwi sa kaitaasan.",
     "highlights": [
       {
         "icon": "History",
@@ -48,22 +48,22 @@
       },
       {
         "icon": "Mountain",
-        "text": "Umuwi sa kabundukan"
+        "text": "Umuwi sa mga bundok"
       },
       {
         "icon": "Users",
-        "text": "Pinamamahalaan ng Pamilya"
+        "text": "Pampamilyang Pagho-host"
       }
     ]
   },
   "features": {
-    "title": "Bakit Dito Mamalagi sa Amin?",
-    "subtitle": "Tunay na mga karanasan sa gitna ng mga bundok",
+    "title": "Bakit Sa Amin Dapat Tumuloy?",
+    "subtitle": "Mga tunay na karanasan sa gitna ng mga bundok",
     "items": [
       {
         "icon": "Mountain",
-        "title": "Tanawin ng mga Bundok",
-        "description": "Mga kamangha-manghang tanawin, skipiste at mga daan para sa pagbibisikleta para tamasahin ang pinakamagandang kalikasan buong taon."
+        "title": "Mga Tanawin ng Bundok",
+        "description": "Kahanga-hangang mga tanawin, mga ski piste at mga daanan ng pagbibisikleta upang tamasahin ang kalikasan sa pinakamaringal nito sa buong taon."
       },
       {
         "icon": "BellOff",
@@ -73,46 +73,46 @@
       {
         "icon": "Coffee",
         "title": "Almusal sa Bukid",
-        "description": "Simulan ang iyong araw gamit ang sariwa at tunay na lokal na gatas, mga itlog, at mga lutong bahay."
+        "description": "Simulan ang iyong araw sa sariwang gatas na tunay na lokal, mga itlog, at mga lutong bahay na pagkain."
       },
       {
         "icon": "HeartHandshake",
-        "title": "Pagkamapagpatuloy",
-        "description": "Dalisay na init at personal na pag-aalaga mula sa iyong mga host sa isang maliit na scale na BnB."
+        "title": "Mabuting Pagtanggap",
+        "description": "Tunay na init at personal na pangangalaga mula sa iyong mga host sa isang maliit na B&B."
       }
     ]
   },
   "roomsSection": {
-    "title": "Ang Aming mga Accommodation",
-    "subtitle": "Magiginhawang espasyo na idinisenyo para sa iyong kaginhawaan",
+    "title": "Ang Aming Mga Akomodasyon",
+    "subtitle": "Mga maaliwalas na espasyo na idinisenyo para sa iyong kaginhawaan",
     "buttonText": "Suriin ang Availability"
   },
   "gallery": {
     "title": "Gallery",
-    "subtitle": "Isang silip sa aming magagandang paligid"
+    "subtitle": "Isang sulyap sa aming magandang kapaligiran"
   },
   "ui": {
     "nav": {
-      "rooms": "Mga Kwarto",
-      "about": "Tungkol Dito",
+      "rooms": "Mga Kuwarto",
+      "about": "Tungkol sa Amin",
       "experience": "Karanasan",
-      "contact": "Kontak",
+      "contact": "Makipag-ugnayan",
       "bookNow": "Mag-book Ngayon"
     },
     "bookingModal": {
-      "title": "I-book Ang Iyong Pamamalagi",
-      "subtitle": "Piliin ang iyong gustong pamamaraan ng pag-book o direktang kontakin kami.",
+      "title": "I-book ang Iyong Pagtuloy",
+      "subtitle": "Piliin ang iyong gustong platform ng pag-book o makipag-ugnayan sa amin nang direkta.",
       "instantConfirmation": "Agad na kumpirmasyon",
       "bestPrice": "Garantiyang pinakamagandang presyo",
-      "goodToKnow": "Angkop na malaman"
+      "goodToKnow": "Mabuting malaman"
     },
     "contactModal": {
       "title": "Makipag-ugnayan sa Amin",
-      "subtitle": "Gusto naming makarinig mula sa iyo. Makipag-ugnayan sa anumang mga katanungan.",
+      "subtitle": "Gusto naming makarinig mula sa iyo. Makipag-ugnayan kung may anumang mga katanungan.",
       "address": "Address",
       "viewMap": "Tingnan sa Google Maps",
       "phone": "WhatsApp / Telepono",
-      "messageWhatsapp": "Mag-message sa WhatsApp",
+      "messageWhatsapp": "Mensahe sa WhatsApp",
       "email": "Email",
       "sendEmail": "Magpadala ng email",
       "directions": "Mga Direksyon",
@@ -121,12 +121,12 @@
     },
     "footer": {
       "contact": "Makipag-ugnayan sa Amin",
-      "quickLinks": "Mga Mabilisang Link",
-      "bookStay": "I-book Ang Iyong Pamamalagi",
-      "whatsappUs": "I-WhatsApp Kami",
-      "directionsInfo": "Mga Direksyon at Info",
-      "secureBooking": "Ligtas na Sistema sa Pag-book",
-      "allRightsReserved": "Nakalaan ang lahat ng karapatan."
+      "quickLinks": "Mabilis na Mga Link",
+      "bookStay": "I-book ang Iyong Pagtuloy",
+      "whatsappUs": "Mag-WhatsApp sa Amin",
+      "directionsInfo": "Mga Direksyon at Impormasyon",
+      "secureBooking": "Ligtas na Sistema ng Pag-book",
+      "allRightsReserved": "Lahat ng karapatan ay nakalaan."
     },
     "map": {
       "title": "Mapa",

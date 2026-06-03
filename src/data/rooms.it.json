@@ -2,11 +2,11 @@
   {
     "id": "deluxe-double",
     "name": "Camera Matrimoniale Deluxe",
-    "description": "Dotata di set di cortesia gratuito, questa camera matrimoniale include un bagno privato con cabina doccia, bidet e asciugacapelli. La camera matrimoniale dispone di set per la preparazione di tè e caffè, TV a schermo piatto con servizi di streaming, vista sul giardino, oltre a vino/champagne per gli ospiti. L'alloggio dispone di 1 letto.",
+    "description": "Dotata di set di cortesia, questa camera matrimoniale include un bagno privato con cabina doccia, bidet e asciugacapelli. Questa camera matrimoniale dispone di set per la preparazione di tè e caffè, TV a schermo piatto con servizi di streaming, vista sul giardino, nonché vino/champagne per gli ospiti. L'unità offre 1 letto.",
     "amenities": [
       {
         "icon": "Wifi",
-        "text": "WiFi gratuito ad alta velocità"
+        "text": "WiFi ad alta velocità gratuito"
       },
       {
         "icon": "Bathroom",
@@ -18,11 +18,11 @@
   {
     "id": "3-bedroom-apartment",
     "name": "Appartamento con 3 Camere da Letto",
-    "description": "Questo spazioso appartamento include 1 soggiorno, 3 camere da letto separate e 1 bagno con cabina doccia e set di cortesia. Gli ospiti troveranno un piano cottura, un frigorifero, una lavastoviglie e utensili nella cucina ben attrezzata. L'appartamento dispone anche di un barbecue. Non mancano una lavatrice, una TV a schermo piatto con servizi di streaming, vista sul giardino, e vino/champagne per gli ospiti. L'unità dispone di 4 letti con spazio per un massimo di 8 ospiti.",
+    "description": "Questo spazioso appartamento comprende 1 soggiorno, 3 camere da letto separate e 1 bagno con cabina doccia e set di cortesia. Gli ospiti troveranno un piano cottura, un frigorifero, una lavastoviglie e utensili da cucina nella cucina ben attrezzata. L'appartamento dispone anche di un barbecue. Questo appartamento dispone di lavatrice, TV a schermo piatto con servizi di streaming, vista sul giardino, nonché vino/champagne per gli ospiti. L'unità ha 4 letti.",
     "amenities": [
       {
         "icon": "Users",
-        "text": "Ospita fino a 6 persone"
+        "text": "Fino a 6 posti letto"
       },
       {
         "icon": "Sun",
